@@ -1,0 +1,20 @@
+---
+layout: post
+title:  My website v2.0
+author: Kevin Cazelles
+date: 2015-11-19
+categories: general
+---
+
+
+#### Welcome random visitor!
+
+This is my first post on my new website. I rebuilt it to take advantage from the recent and efficient tools/frameworks available such as [Jekyll](https://jekyllrb.com), [boostrap](http://getbootstrap.com), [font-awsome](https://fortawesome.github.io/Font-Awesome/), [YAML](http://yaml.org) that I have now adopted. I would like to thank a lot [Steve Vissault](http://www.steve-vissault.me) for introducing me to Jekyll and for the hints he gave me. To get potential feed-back on my posts, I have added a [DISQUS](https://disqus.com/) part. Questions about how this website was made are welcome, all the code I use is available on [Github](https://github.com/KevCaz/KevCazWebsite).
+
+I have also taken the opportunity to edit previous posts and delete the one that explained how the previous website was built. I have also removed some material that I will make available again as dedicated posts. I will push myself to make all the code developed on [Github](https://github.com/KevCaz). Also, given that I love producing figures with R, I decided to add a [new section]({{site.baseurl}}/blogR) dedicated to this topic.
+
+<br/>
+
+#### Até !
+
+<br/>

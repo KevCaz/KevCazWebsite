@@ -1,0 +1,149 @@
+---
+orcid: 0000-0001-6619-9874
+created_at: '2015-03-04T18:13:03+00:00'
+updated_at: '2015-11-18T15:08:41+00:00'
+biography:
+given_names: Kevin
+family_name: Cazelles
+references:
+- DOI: 10.1007/s12080-015-0281-9
+  URL: http://dx.doi.org/10.1007/s12080-015-0281-9
+  publisher: Springer Science $\mathplus$ Business Media
+  author:
+  - family: Cazelles
+    given: K{\'{e}}vin
+  - family: Araújo
+    given: Miguel B.
+  - family: Mouquet
+    given: Nicolas
+  - family: Gravel
+    given: Dominique
+  title: A theory for species co-occurrence in interaction networks
+  container-title: Theoretical Ecology
+  genre: article
+  id: cazelles2015a
+  type: ''
+  issued:
+    date-parts:
+    - - 2015
+      - 10
+- DOI: 10.1101/016485
+  URL: http://dx.doi.org/10.1101/016485
+  publisher: Cold Spring Harbor Laboratory Press
+  author:
+  - family: Poisot
+    given: Timoth{\'{e}}e
+  - family: Cirtwill
+    given: Alyssa
+  - family: Cazelles
+    given: K{\'{e}}vin
+  - family: Gravel
+    given: Dominique
+  - family: Fortin
+    given: Marie-Jos{\'{e}}e
+  - family: Stouffer
+    given: Daniel
+  title: The structure of probabilistic networks
+  container-title: Methods in Ecology and Evolution
+  genre: techreport
+  id: poisot2015a
+  type: ''
+  issued:
+    date-parts:
+    - - 2015
+      - 3
+- DOI: 10.1111/aec.12221
+  URL: http://dx.doi.org/10.1111/aec.12221
+  publisher: Wiley-Blackwell
+  volume: '40'
+  issue: '5'
+  page: 537--546
+  author:
+  - family: Stradic
+    given: Soizig Le
+  - family: Silveira
+    given: Fernando A. O.
+  - family: Buisson
+    given: Elise
+  - family: Cazelles
+    given: K{\'{e}}vin
+  - family: Carvalho
+    given: Vanessa
+  - family: Fernandes
+    given: G. Wilson
+  title: Diversity of germination strategies and seed dormancy in herbaceous species
+    of campo rupestre grasslands
+  container-title: Austral Ecology
+  genre: article
+  id: stradic2015a
+  type: ''
+  issued:
+    date-parts:
+    - - 2015
+      - 2
+- DOI: 10.1016/j.ijid.2014.03.873
+  URL: http://dx.doi.org/10.1016/j.ijid.2014.03.873
+  publisher: Elsevier {BV}
+  volume: '21'
+  page: '217'
+  author:
+  - family: Cazelles
+    given: B.
+  - family: Cazelles
+    given: Kevin
+  title: Major urban centers have weak influence on the timing of dengue epidemics
+    in Southeast Asia
+  container-title: International Journal of Infectious Diseases
+  genre: article
+  id: cazelles2014a
+  type: ''
+  issued:
+    date-parts:
+    - - 2014
+      - 4
+- DOI: 10.1098/rsif.2013.0585
+  URL: http://dx.doi.org/10.1098/rsif.2013.0585
+  publisher: The Royal Society
+  volume: '11'
+  issue: '91'
+  page: 20130585--20130585
+  author:
+  - family: Cazelles
+    given: B.
+  - family: Cazelles
+    given: Kevin
+  - family: Chavez
+    given: M.
+  title: ! 'Wavelet analysis in ecology and epidemiology: impact of statistical tests'
+  container-title: Journal of The Royal Society Interface
+  genre: article
+  id: cazelles2013a
+  type: ''
+  issued:
+    date-parts:
+    - - 2013
+      - 11
+- DOI: 10.1016/j.ecolmodel.2012.08.008
+  URL: http://dx.doi.org/10.1016/j.ecolmodel.2012.08.008
+  publisher: Elsevier {BV}
+  volume: '248'
+  page: 165--173
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Otten
+    given: W.
+  - family: Baveye
+    given: P.C.
+  - family: Falconer
+    given: R.E.
+  title: ! 'Soil fungal dynamics: Parameterisation and sensitivity analysis of modelled
+    physiological processes, soil architecture and carbon distribution'
+  container-title: Ecological Modelling
+  genre: article
+  id: cazelles2013b
+  type: ''
+  issued:
+    date-parts:
+    - - 2013
+      - 1

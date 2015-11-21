@@ -1,0 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: KevCaz's home page
+email: kevin.cazelles@um2.fr
+description: > # this means to ignore newlines until "baseurl:"
+  Kevin Cazelles is a phD student working in theoretical ecology.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kevincazelles.fr" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  KevCaz
+
+# Build settings
+markdown: kramdown
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+# orcid / jekyll
+# author:
+#   orcid: 0000-0001-6619-9874
+#
+# scholar:
+#   style: apa
+#   locale: en
+#
+#   sort_by: year
+#   order: reverse
+#
+#   source: ./_bibliography
+#   bibliography: references.bib
+#   bibliography_template: bib
+#
+#   replace_strings: true
+#   join_strings:    true
+#
+#   bibliography_list_tag: p
+#   bibliography_item_tag: p
+#
+#   query: "@*"

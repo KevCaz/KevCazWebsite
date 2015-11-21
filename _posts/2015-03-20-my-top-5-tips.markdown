@@ -1,0 +1,154 @@
+---
+layout: post
+title:  "My top 5 R tips"
+author: Kevin Cazelles
+date: 2015-03-20
+categories: R
+---
+
+
+In this post I share my top 5 R tips. They regard either my handling of R or functions you find in the default packages of R (I mean "base", "datasets", "graphics", "grDevices", "methods" or "utils" package). My top 5 R tip is:
+
+1. Creating your own startup session
+2. Using the terminal and an nice editor
+3. The `apropos()` function
+4. The parameters `xaxs="i"`, `yaxs="i"` in the `par()` function
+5. The `locator()` function
+
+
+<br>
+
+### Creating your own startup session ###
+
+It is well explained on the [CRAN website](http://stat.ethz.ch/R-manual/R-patched/library/base/html/Startup.html). You can also get this documentation by writing the following command line in your R command:
+
+{% highlight R %}
+?Startup
+{% endhighlight %}
+
+I do not want to go through all the details but I will give you the best benefit I took from it. Since I have started working with R, I have created many functions and I need some of them each time I code. Instead of loading them manually, I have created a folder  where I gather these functions and R load them when I open it. To do so, first have a look of the documentation. When you have understood how it works you will be able to locate (or define) .Rprofile.site and R.profile files. In the .Rprofile.site file, store your path to your folder "dirfunc" which contains the functions to be loaded.
+
+{% highlight R %}
+mypath <- /dir1/dir2/dir3/dirfunc
+myfun <- list.files(path=mypath, pattern=".R$")
+{% endhighlight %}
+
+These two objects are then available for the next steps. In the R.profile file, add the following line in the **.First** function (first to be executed):
+
+{% highlight R %}
+if (length(myfun)>0) sapply(paste(mypath,myfun,sep="/"), source)
+{% endhighlight %}
+
+It should work!
+
+
+<br>
+
+### Using the terminal and an nice editor ###
+
+ This tip is slightly controversial and this may not be a good tip for some R users. However, for Unix users who handle (even infrequently) the terminal, I would definitely recommend it. First you benefit from terminal facilities such as an efficient autocompletion and a convenient command history search. This provides the R console. To complete the setting, you must use a powerful code editor. I personally use [Sublime Text 3](http://www.sublimetext.com/3) with a package which enables to send command to the terminal. Since I use it I do not have any bug, R does not freeze. I think this is something [Rstudio](http://www.rstudio.com) users must be aware of: most issues they may encounter are likely caused by the interaction between R and the graphical user interface. I think Rstudio offers valuable facilities but if you are used to handle the terminal, you must try do use R this way.
+
+
+<br>
+
+### The **apropos()** function ###
+This is a very simple function but I have coded for 2 years without the slightest idea such function was available! I swear you, I have called it every week since I discovered it. Have a look of the help (use the R console):
+
+{% highlight R %}
+?apropos
+{% endhighlight %}
+
+Note that many other functions are available in the well-called default package "utils".   
+
+{% highlight R %}
+library(help="utils")
+{% endhighlight %}
+
+
+Given a pattern you provide, "apropos" looks it up in the list of function available and returns the function names that matches your pattern (outputs depend on the loaded packages). It is very useful as the progress we make with R implies the knowledge of many function. As our memory is not perfect, we often remember roughly the names of functions we seldom call. Let's say I want to use a function to calculate the duration of a calculus. I remember (or I guess!) that it contains "time", then I try:
+
+{% highlight R %}
+apropos("time")
+{% endhighlight %}
+
+and I got all the functions whose names contain "time". You can even
+match a combination of regular expressions such as:
+
+{% highlight R %}
+apropos("^Sy.+time")
+{% endhighlight %}
+
+I guarantee you, the first line is always sufficient! So now, when you forgot the name of the function you want to use, stop googling it, aproposing it!!
+
+
+<br>
+
+### The parameters xaxs="i", yaxs="i" in the **par()** function ###
+
+Before I became aware of this arguments, when I was creating a graphic, I was always wondering why R extends the data range. It took me quite a while to understand it. The answer is given in the documentation of "par" function... We must always read the documentation of a function from the beginning to the end!
+
+{% highlight R %}
+?par
+{% endhighlight %}
+
+Even if it could be relevant to have an extra range of 4 percent. I generally want to define the data range on my own. Therefore I change the default value of "xaxs" and "yaxs" arguments. Let's have an example, I define two sequences:
+
+{% highlight R %}
+x <- runif(10)    
+y <- runif(10)
+{% endhighlight %}
+
+instead of doing:
+
+{% highlight R %}
+plot(x,y, col=2, pch=19)
+{% endhighlight %}
+
+I will rather do:
+
+{% highlight R %}
+par(xaxs="i", yaxs="i")   
+plot(c(-0.05,1.05),c(-0.05,1.05), type="n")     
+points(x, y, col=2, pch=19)
+{% endhighlight %}
+
+
+It is a bit longer than the first proposition but I get exactly what I desire. Note that if I want to prevent points next to the edges from being half-plotted I can simply turn the second line into:
+
+{% highlight R %}
+plot(c(-0.05,1.05),c(-0.05,1.05), type="n")
+{% endhighlight %}
+
+
+<br>
+
+### The **locator()** function ###
+
+This a very useful function for many tricks. As usual, look at the documentation.
+
+{% highlight R %}
+?locator
+{% endhighlight %}
+
+This function from the "graphics" packages allows you to click on a plot as many times as required and it returns the coordinates of the points you have click on. For instance, let's imagine that we want to obtain the coordinates of ten points from the graph we have previously drawn:
+
+{% highlight R %}
+plot(x,y, col=2, pch=19)
+locator(10)
+{% endhighlight %}
+
+If we need to plot them on the click:
+
+{% highlight R %}
+plot(x,y, col=2, pch=19)
+locator(10, col=4)
+{% endhighlight %}
+
+
+Note that if you do not know how many points you need to plot, do not specify any number (default is n=512) and click right when you want to stop the process. Locator allows you to imagine very interesting interaction with graphics. For instance, let's consider a system of 2 ordinary differential equations and I draw the vector field associated (see `kVectfield2d()` in [graphicsutils package]((https://github.com/KevCaz/graphicsutils)) function). Then on the click, locator returns initial conditions I use for the integration (see `rk4()` in package [deSolve](https://cran.r-project.org/web/packages/deSolve/index.html) function) then I add the trajectory on the plot.
+
+
+I hope this could help!
+
+
+### &nbsp; &nbsp; KeV &nbsp; &nbsp; ###
