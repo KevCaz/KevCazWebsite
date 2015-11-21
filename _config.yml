@@ -18,10 +18,6 @@ github_username:  KevCaz
 # Build settings
 markdown: kramdown
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
 # orcid / jekyll
 # author:
 #   orcid: 0000-0001-6619-9874

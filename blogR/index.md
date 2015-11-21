@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Figure R
+title: Figures R
 order: 4
 ---
 
-## Posts
+## Figures R
 
 <div class="home">
 

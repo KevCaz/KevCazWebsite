@@ -5,17 +5,17 @@ layout: default
 
 ## About me
 
-- Kévin Cazelles alias KevCaz
+- Kévin Cazelles
 - A PhD candidate who works on theoretical Biogeography at:
     - [Institut des Sciences de L'Evolution de Montpellier](http://www.isem.univ-montp2.fr), Université de Montpellier, Montpellier, France. PhD supervisor: **Nicolas Mouquet**,
     - [Laboratoire d'Ecologie Théorique](http://chaire-eec.uqar.ca), Université du Québec à Rimouski, Rimouski, Canada. PhD supervisor: **Dominique Gravel**.
 - Contact:
-  - <i class="fa fa-envelope"></i> [kevin(dot)cazelles(at)um2(dot)com](mailto:kevin.cazelles@um2.fr)
+  - <i class="fa fa-envelope"></i> [kevin.cazelles@um2.com](mailto:kevin.cazelles@um2.fr)
   - <i class="fa fa-github"></i> [KevCaz](https://github.com/KevCaz)
   - <i class="fa fa-linkedin"></i> [Linked in profile](https://www.linkedin.com/in/kevin-cazelles-51552283)
   - <i class="ai ai-researchgate-square fa-3x"></i> [Researchgate profile](https://www.researchgate.net/profile/Kevin_Cazelles)
   - <i class="ai ai-mendeley-square fa-3x"></i> [Mendeley profile](https://www.mendeley.com/profiles/kevin-cazelles/)
-- [Curriculum vitae]({{site.baseurl}}/assets/CVKC.pdf) [<i class="fa fa-download"></i>]({{site.baseurl}}/assets/CVKC.zip)
+- Curriculum Vitae [<i class="fa fa-file-pdf-o"></i>]({{site.baseurl}}/assets/CVKC.pdf) [<i class="fa fa-download"></i>]({{site.baseurl}}/assets/CVKC.zip)
 
 <br>
 
@@ -33,11 +33,11 @@ layout: default
 
 <br>
 
-## With whom I am collaborating ?
+## With whom am I collaborating ?
 
-*   [Bernard Cazelles](http://www.biologie.ens.fr/~cazelles/bernard/Welcome.html), Ecole Normale Supérieur
+*   [Bernard Cazelles](http://www.biologie.ens.fr/~cazelles/bernard/Welcome.html), Ecole Normale Supérieure (Paris)
 *   [Camille Albouy](http://albouycamille.free.fr/), Université du Québec à Rimouski
-*   [David Mouillot](http://albouycamille.free.fr/), Université de Montpellier
+*   [David Mouillot](http://www.umr-marbec.fr/mouillot-david.html), Université de Montpellier
 *   [Dominique Gravel](http://chaire-eec.uqar.ca/), Université du Québec à Rimouski
 *   [Nicolas Casajus](http://nicolascasajus.fr), Université du Québec à Rimouski,
 *   [Nicolas Mouquet](http://www.eec.univ-montp2.fr/people/nicolas-mouquet/), Université de Montpellier

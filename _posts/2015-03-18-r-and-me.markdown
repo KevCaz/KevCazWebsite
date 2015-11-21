@@ -2,7 +2,7 @@
 layout: post
 title:  "R and me"
 author: Kevin Cazelles
-date:   2015-11-22
+date:   2015-11-21
 categories: R
 ---
 
