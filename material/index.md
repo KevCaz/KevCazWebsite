@@ -43,9 +43,7 @@ order: 3
     {{ member.author }} ({{member.year}})
     {%if member.URL %}
       {%if member.hosted %}
-        cool
         <a href="{{ site.baseurl }}/material/assets/{{ member.URL }}">{{ member.name }} ({{ member.lang }})</a>
-        {{ site.baseurl }}/material/assets/{{ member.URL }}
       {% else %}
         <a href="{{ member.URL }}">{{ member.name }} ({{ member.lang }})</a>
       {% endif %}
