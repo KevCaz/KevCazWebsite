@@ -14,7 +14,7 @@ order: 3
 
       devtools::install_github("KevCaz/decomposenumbers"))
 
-
+<br/>
 
 ## Manuals
 
@@ -29,6 +29,33 @@ order: 3
     &nbsp;<a href="{{ member.github }}"><i class="fa fa-github"></i></a>
     {% endif %}
   </li>
-  <br>
+  <br/>
+{% endfor %}
+</ul>
+
+<br/>
+
+## Presentation (teaching)
+
+<ul>
+{% for member in site.data.teachpres %}
+  <li>
+    {{ member.author }} ({{member.year}})
+    {%if member.URL %}
+      {%if member.hosted %}
+        cool
+        <a href="{{ site.baseurl }}/material/assets/{{ member.URL }}">{{ member.name }} ({{ member.lang }})</a>
+        {{ site.baseurl }}/material/assets/{{ member.URL }}
+      {% else %}
+        <a href="{{ member.URL }}">{{ member.name }} ({{ member.lang }})</a>
+      {% endif %}
+    {% else %}
+      <b> {{ member.name }} </b>
+    {% endif %}
+    {%if member.download %}
+      <a href="{{ site.baseurl }}/material/assets/{{ member.download }}"><i class="fa fa-download"></i></a>
+    {% endif %}
+  </li>
+  <br/>
 {% endfor %}
 </ul>

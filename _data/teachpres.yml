@@ -1,0 +1,15 @@
+- name: Gérer et formater sa bibliographie
+  author: Casajus N., Vissault S. and Cazelles K.
+  year: 2015
+  lang: fr
+  URL: http://www.steve-vissault.me/Talk_bib/#1
+  category: teaching
+
+- name: Utiliser R Markdown pour créer des coduments dynamiques
+  author: Cazelles K.
+  year: 2014
+  lang: fr
+  download: pres_Rmarkdown.zip
+  URL: pres_Rmarkdown.html
+  hosted: true
+  category: teaching

@@ -24,7 +24,7 @@ You can take many advantage from R without deep knowledge in programming (such a
 An incredible quantity of documentation/manuals is available. You can have access to many free resources on the [CRAN](https://cran.r-project.org) website. There are also many books, such as those of the [Use R! ](http://www.springer.com/series/6991?detailsPage=titles) collection of Springer.
 
 5-   **The number of packages** <br/>
-With more than 7500 add-on packages (november 2015, for today's figure [see the CRAN website](https://cran.r-project.org/web/packages/)), it is very likely that common methods of your field have already been implemented! According to [this blog post](http://r4stats.com/2014/04/07/r-continues-its-rapid-growth/)), the number of packages grows exponentially . As I was not able to reproduce the plot presented, I wrote a R script that search on the CRAN all packages and the earliest recorded date associated. The code is slow and it may not be accurate. However but it provided valuable insights (see the figure below the code generated) and it is fully reproducible (get the script [numbeRPackage.R on Github](https://github.com/KevCaz/RScriptsBlog))
+With more than 7500 add-on packages (november 2015, for today's figure [see the CRAN website](https://cran.r-project.org/web/packages/)), it is very likely that common methods of your field have already been implemented! According to [this blog post](http://r4stats.com/2014/04/07/r-continues-its-rapid-growth/), the number of packages grows exponentially. As I was not able to reproduce the plot presented, I wrote a R script that search on the CRAN all packages and the earliest recorded date associated. The code is slow and it may not be accurate. However but it provided valuable insights (see the figure below the code generated) and it is fully reproducible (get the script [numbeRPackage.R on Github](https://github.com/KevCaz/RScriptsBlog))
 
 ![Figure package]({{site.baseurl}}/blog/assets/figpkR.jpg)
 
@@ -82,12 +82,12 @@ otherwise you can simply enter:
 
 {% highlight R %}
   B <- lapply(A,apply,2,quantile)
-{% endhighlight %}´
+{% endhighlight %}
 
 This makes R quite powerful. In this example, with R 3.1.2, it does not improve the time of calculation as you can see if you test the code below:
 <script src="https://gist.github.com/KevCaz/d1b252265209be63d1e2.js"></script>
 
-Nevertheless, you save a lot of coding time and it makes perfect sense for advanced R users. I remember a case (2 years ago) where the code took 5 seconds to do the calculation whereas with for loops, it required 45 minutes! Maybe current R version offers for-loops as efficient as ´apply()´ functions.
+Nevertheless, you save a lot of coding time and it makes perfect sense for advanced R users. I remember a case (2 years ago) where the code took 5 seconds to do the calculation whereas with for loops, it required 45 minutes! Maybe current R version offers for-loops as efficient as `apply()`` functions.
 
 Finally, if you want to undertake a calculation which consumes a lot of time, you may have a look at the [snow package](http://cran.r-project.org/web/packages/snow/index.html) and related packages. They provide tools to parallel your code. Also if you are familiar with C and C++ programming languages, you will strongly benefit from the [Rcpp package](https://cran.r-project.org/web/packages/Rcpp/index.html). I recommend you to read [what Hadley Wickham wrote about Rcpp](http://adv-r.had.co.nz/Rcpp.html)) and also this paper by [Visser and colleagues](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140).
 
