@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "My top 5 R tips"
+title:  5 R functions you must remember
 author: Kevin Cazelles
-date: 2015-03-20
+date: 2015-12-20
 categories: R
 ---
 
 
-In this post I share my top 5 R tips. They regard either my handling of R or functions you find in the default packages of R (I mean "base", "datasets", "graphics", "grDevices", "methods" or "utils" package). My top 5 R tip is:
+In brief:
 
 1. Creating your own startup session
 2. Using the terminal and an nice editor
@@ -20,13 +20,16 @@ In this post I share my top 5 R tips. They regard either my handling of R or fun
 
 ### Creating your own startup session ###
 
-It is well explained on the [CRAN website](http://stat.ethz.ch/R-manual/R-patched/library/base/html/Startup.html). You can also get this documentation by writing the following command line in your R command:
+It is well explained on the [CRAN website](http://stat.ethz.ch/R-manual/R-patched/library/base/html/Startup.html). You can also get this documentation by writing the following command line in your R console:
 
 {% highlight R %}
 ?Startup
 {% endhighlight %}
 
-I do not want to go through all the details but I will give you the best benefit I took from it. Since I have started working with R, I have created many functions and I need some of them each time I code. Instead of loading them manually, I have created a folder  where I gather these functions and R load them when I open it. To do so, first have a look of the documentation. When you have understood how it works you will be able to locate (or define) .Rprofile.site and R.profile files. In the .Rprofile.site file, store your path to your folder "dirfunc" which contains the functions to be loaded.
+I do not intend to go through the details. Instead I highlight the main benefits I took from it:
+1- Loading
+2-
+Since I have worked with R, I have created many functions I use almost each time I code. Instead of loading them manually, I have created a folder  where I gather these functions and R load them when I open it. To do so, first have a look of the documentation. When you have understood how it works you will be able to locate (or define) .Rprofile.site and R.profile files. In the .Rprofile.site file, store your path to your folder "dirfunc" which contains the functions to be loaded.
 
 {% highlight R %}
 mypath <- /dir1/dir2/dir3/dirfunc

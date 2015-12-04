@@ -9,22 +9,22 @@ categories: R
 *This post was first written in March 2015. I reworked it before releasing the website v2.0.*
 
 
-I have been working with [R](http://cran.r-project.org) since 2009. Now I use R almost every day. I am grateful to all contributors for this amazing programming language. I like teaching how to handle R and I propose some packages/script/functions on [Github](https://github.com/KevCaz).
+I have been working with [R](http://cran.r-project.org) since 2009. Now I use R almost every day. I am grateful to all contributors for this amazing programming language. I like teaching how to handle R and I propose some packages/scripts/functions on [Github](https://github.com/KevCaz).
 
 1-   **One tool for many tasks** <br/>
-Statistical analysis, data analysis, data visualization and even more in few command lines.
+Statistical analysis, data analysis, data visualization and even more in few lines of code.
 
 2-   **Free** <br>
 Well then, why paying for similar tool ?!  
 
 3-   **Easy to learn** <br/>
-You can take many advantage from R without deep knowledge in programming (such as pointers, variable types, optimization...). After a couple of hours you will be able to create object and use them properly. Try and see.  
+You can take many advantages from R without deep knowledge in programming (*i.e*, such as pointers, variable types, optimization...). After a couple of hours you will be able to create object and use them properly.
 
 4-   **Huge amount of documentation** <br/>
-An incredible quantity of documentation/manuals is available. You can have access to many free resources on the [CRAN](https://cran.r-project.org) website. There are also many books, such as those of the [Use R! ](http://www.springer.com/series/6991?detailsPage=titles) collection of Springer.
+An incredible amount of documentation/manuals is available. You can have access to many free documentation resources on the [CRAN](https://cran.r-project.org) website. There are also many books, such as those of the [Use R! ](http://www.springer.com/series/6991?detailsPage=titles) collection of Springer.
 
 5-   **The number of packages** <br/>
-With more than 7500 add-on packages (november 2015, for today's figure [see the CRAN website](https://cran.r-project.org/web/packages/)), it is very likely that common methods of your field have already been implemented! According to [this blog post](http://r4stats.com/2014/04/07/r-continues-its-rapid-growth/), the number of packages grows exponentially. As I was not able to reproduce the plot presented, I wrote a R script that search on the CRAN all packages and the earliest recorded date associated. The code is slow and it may not be accurate. However but it provided valuable insights (see the figure below the code generated) and it is fully reproducible (get the script [numbeRPackage.R on Github](https://github.com/KevCaz/RScriptsBlog))
+With more than 7500 add-on packages (november 2015, for today's figure [see the CRAN website](https://cran.r-project.org/web/packages/)), it is very likely that common methods of your field have already been implemented! According to [this blog post](http://r4stats.com/2014/04/07/r-continues-its-rapid-growth/), the number of packages grows exponentially. As I was not able to reproduce the plot presented, I wrote a R script that searches on the CRAN all packages and the earliest recorded date associated. The code is slow and it may not be accurate. However, it provides valuable insights (see the figure below the code generated) and it is fully reproducible (get the script [numbeRPackage.R on Github](https://github.com/KevCaz/RScriptsBlog))
 
 ![Figure package]({{site.baseurl}}/blog/assets/figpkR.jpg)
 

@@ -11,7 +11,7 @@ I wrote the lines below few months ago. I wanted to share them on line but at th
 
 
 <br>
-I would like to share my feelings about the [ITER project](http://en.wikipedia.org/wiki/ITER). *Nature* have recently published something on this topic [a piece of news has come out in Nature](http://www.nature.com/news/us-plans-for-future-of-fusion-research-1.15993?WT.ec_id=NEWS-20140923) and I think they could have explained way better the problem and the drawbacks of the project.
+I would like to share my feelings about the [ITER project](http://en.wikipedia.org/wiki/ITER). *Nature* have recently published [something on this topic](http://www.nature.com/news/us-plans-for-future-of-fusion-research-1.15993?WT.ec_id=NEWS-20140923) and I think they could have explained way better the drawbacks of the project.
 
 Since the 80’s - but the desire may have emerged before - advanced countries strive to control the nuclear fusion. In 1986, the ITER project started with many advanced countries and the hope of producing electricity thanks to this new technology over the next few years.
 
@@ -29,7 +29,7 @@ it interacts with surrounding material in order to engineer walls that
 can maintain the reaction."
 
 
-According to the experts speaking in the French radio broadcast -I deeply appreciate and recommend- [Terre a Terre](http://www.franceculture.fr/emission-terre-a-terre-12-13) on 2014/09/20:
+According to the experts opinion expressed during the French radio program [Terre a Terre](http://www.franceculture.fr/emission-terre-a-terre-12-13) aired on 2014/09/20:
 
 * We do not know how to scale up successfully.
 
@@ -52,7 +52,6 @@ biggest nuclear fusion chamber in our solar system: the sun it-self!
 However part of the money may have provided significant progress but we still need a huge amount of money to answer the same issue regarding a clean production of energy, **I think too much money have been put in the same "leaky basket"**.
 <br/>
 <br/>
-
 
 This is the end of the (almost) original text which I sent some of my colleagues and one of them answered to me like so:
 
