@@ -203,6 +203,7 @@ p {
 
 
 
+
 /**
  * Posts
  */
@@ -246,4 +247,26 @@ p {
             font-size: 18px;
         }
     }
+
+    /**
+     * Tables ## KC
+     */
+    // table{
+    //     border-collapse: collapse;
+    //     border-spacing: 0;
+    //     border:2px solid #ff0000;
+    // }
+
+    th{
+      padding-bottom: 4px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    td{
+        padding-top: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 }

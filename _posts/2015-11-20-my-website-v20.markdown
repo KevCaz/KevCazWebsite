@@ -3,7 +3,7 @@ layout: post
 title:  My website v2.0
 author: Kevin Cazelles
 date: 2015-11-19
-categories: general
+categories: General
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Creating an R package, it worth it"
+title:  "Creating an R package, it's worth it"
 author: Kevin Cazelles
 date:   2015-08-04
-categories: R package
+categories: R
 ---
 
 

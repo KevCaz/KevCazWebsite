@@ -3,7 +3,7 @@ layout: post
 title:  "Latex and Ecology Letters"
 author: Kevin Cazelles
 date: 2015-01-26
-categories: document preparation system
+categories: Latex
 ---
 
 
