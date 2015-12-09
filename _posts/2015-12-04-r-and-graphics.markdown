@@ -6,7 +6,7 @@ date: 2015-12-04
 categories: Rgraphics
 ---
 
-*'Evolving post' written in collaboration with [Nicolas Casajus](http://nicolascasajus.fr) and Marie-Hélène Greffard.*
+*'Evolving post' written in collaboration with [Nicolas Casajus](http://nicolascasajus.fr) and [Marie-Hélène Greffard](http://www.er.uqam.ca/nobel/r3424621/labo/fr/site/Marie-Helene.html).*
 <br/>
 *Last edit: Dec 3, 2015*
 
@@ -20,15 +20,15 @@ That being said, the advantages are numerous and more can be built in. For insta
 
 {% for post in site.posts %}{% if post.title == 'R and me' %}{% assign cool = post.url %}{% endif %}{% endfor %}
 
-1- You obtain all the advantages linked with using R, *i.e.* it is free, lot of documentation exist, a very large community of users, there are many packages, it is easy to learn ([see this former post]({{ cool | prepend: site.baseurl }})).
+1- You obtain all the advantages linked with using R, *i.e.* it is free, lot of documentation exists, a very large community of users, there are many packages, it is easy to learn ([see this former post]({{ cool | prepend: site.baseurl }})).
 
 2- Any kind of graphics a scientist needs has already been implemented by many contributors (see the packages review below). If you find there is room for improvement or that we are mistaken, all information is available to further develop missing plotting functions or correct existing ones.
 
 3- Almost everything is possible. All graphics are fully customizable. Some time is required to learn the works, but it's worth it.
 
-4- Although there may be many good reasons to use software to post-treat graphics R produces in WYSIWYG softwares, we contend that once you master R, you will never do so. When a graphics is done, it is associated with only a few lines of code. Changing solely the lines of code is much more efficient way more efficient to solve any problem than reproducing and post-treating the graphics. As scientists, it is a victory to only modify a few lines of code when reviewers quibble about a figure.
+4- Although there may be many good reasons to use software to post-treat graphics R produces in WYSIWYG softwares, we contend that once you master R, you will never do so. When a graphics is done, it is associated with only a few lines of code. Changing solely the lines of code is a much more efficient way more efficient to solve any problem than reproducing and post-treating the graphics. As scientists, it is a victory to only modify a few lines of code when reviewers quibble about a figure.
 
-5- Once a graphics is created, we can export it in many formats: 'eps', 'jpeg', 'pdf', 'bmp', 'svg' with appropriate resolution and size. There is 100% guarantee that you will meet journal's requirements for figures publication.
+5- Once a graphics is created, we can export it in many formats: 'eps', 'jpeg', 'pdf', 'bmp', 'svg' with appropriate resolution and size. There is 100% guarantee that you will meet a journal's requirements for figures publication.
 
 This blog is dedicated to help you realize these advantages. Examples will be provided with many parameters to ensure you can get exactly what you want (in term of graphics). We wish to show and assist you in making everything possible. Every tool is already available and we made some more accessible through this [graphicsutils](https://github.com/KevCaz/graphicsutils) package available on github.
 

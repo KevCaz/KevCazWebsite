@@ -6,7 +6,7 @@ order: 3
 
 ## R packages
 
-- Some R functions that to help edit graphics: [graphicsutils](https://github.com/KevCaz/graphicsutils) [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/KevCaz/graphicsutils/builds/90854166)
+- Some R functions that to help edit graphics: [graphicsutils](https://github.com/KevCaz/graphicsutils) [![Travis](https://travis-ci.org/KevCaz/graphicsutils.svg?branch=master)](https://travis-ci.org/KevCaz/graphicsutils)
 
        devtools::install_github("KevCaz/graphicsutils")
 

@@ -24,7 +24,7 @@ layout: default
 <p style='text-align: justify;'>
   Behind the aesthetic value of the world's biodiversity, there is one exciting challenge: revealing the causes of species distribution.
   Indeed, biogeographers strive to find the variables that explain past and present geographical distribution of species.
-  Such factors are also the keys to forecast accurately tomorrow's species occurrences and to inform us about what we should do now to reduce the ongoing mass extinction.
+  Such factors are also the keys to forecast accurately tomorrow's species occurrences and inform us about what we should do now to reduce the ongoing mass extinction.
 </p>
 <p style='text-align: justify;'>
   Beyond classical variables such as temperature, precipitation, soil quality, Biogeographers must take evolutionary processes and interactions networks into account to improve forecasts of future biodiversity. To do so, as a first step, theoretical models are appropriate tools to unify knowledge from different realms of ecology. Therefore, during my PhD, I am looking for elegant methods to produce integrated models. I hope my work will be helpful to understand the respective contribution of the different processes to species distributions over spatial scales.
