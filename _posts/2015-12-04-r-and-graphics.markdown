@@ -89,11 +89,13 @@ Many packages for graphics are indexed in a dedicated [task view maintained by N
 |:-------------|:------------------|
 | [graphics](https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/00Index.html) | Base (and S-like) graphics  |
 | [grid](https://stat.ethz.ch/R-manual/R-devel/library/grid/html/00Index.html) | A flexible package that supplements 'graphics' |
+| [gridBase](https://cran.r-project.org/web/packages/gridBase/) | Integrating Grid Graphics Output with Base Graphics Output (see also [this article](https://cran.r-project.org/web/packages/gridBase/vignettes/gridBase.pdf)) |
+| [gridGraphics](https://cran.r-project.org/web/packages/gridGraphics/) | Functions to convert a page of plots drawn with the graphics package into an identical output drawn with the grid package (see also [this article](https://journal.r-project.org/archive/2015-1/murrell.pdf))
 | [grDevices](https://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/00Index.html) | Graphics Devices and Support for Colours and Fonts |
 | [lattice](https://cran.r-project.org/web/packages/lattice) | R implementation of Trellis Graphics |
 | [ggplot2](https://cran.r-project.org/web/packages/ggplot2) | R implementation of Leland Wilkinson's "Grammar of Graphics"|
 | [plotrix](https://cran.r-project.org/web/packages/plotrix) | Various plotting function
-| [gridGraphics](https://cran.r-project.org/web/packages/gridGraphics/) | Functions to convert a page of plots drawn with the graphics package into an identical output drawn with the grid package (see also [this article](https://journal.r-project.org/archive/2015-1/murrell.pdf)))
+| [gridGraphics](https://cran.r-project.org/web/packages/gridGraphics/) | Functions to convert a page of plots drawn with the graphics package into an identical output drawn with the grid package (see also [this article](https://journal.r-project.org/archive/2015-1/murrell.pdf))
 
 <br/>
 
