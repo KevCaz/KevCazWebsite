@@ -11,6 +11,6 @@ Dominique Gravel, Nicolas Mouquet, David Mouillot and me have recently published
 In addition of sharing this blog post on my own blog, I would like to confess two regrets regarding this paper. First, I did not make any code available. Even if the core of the model does not take that much time to be implemented, I think it is good practice to make code available as it enhances reproducibility and it may save some times for potential users of the model. In my defense, I became familiar with Github right after the first submission of the paper... That being said, I will push myself to provide a version of the code available on Github in the very next days. Once it will be done, I will write a blog post saying so! My second regret regards the math of the paper. I have actually spent few hours to derive all the equations to get an exact solution (simple math though). However I didn't fully value this work given our target journal. I hope to do so in the next paper that should involve more math.
 
 
-
-
 <br/>
+
+#### See ya next post!
