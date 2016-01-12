@@ -6,11 +6,11 @@ order: 3
 
 ## R packages
 
-- Some R functions that to help edit graphics: [graphicsutils](https://github.com/KevCaz/graphicsutils) [![Travis](https://travis-ci.org/KevCaz/graphicsutils.svg?branch=master)](https://travis-ci.org/KevCaz/graphicsutils)
+- Some R functions to ease the edition of graphics using the base package *graphics*: [graphicsutils](https://github.com/KevCaz/graphicsutils) [![Travis](https://travis-ci.org/KevCaz/graphicsutils.svg?branch=master)](https://travis-ci.org/KevCaz/graphicsutils)
 
        devtools::install_github("KevCaz/graphicsutils")
 
-- A small convert numbers from one base to another [decomposenumber](https://github.com/KevCaz/decomposenumbers)
+- A small package to convert numbers from one base to another [decomposenumber](https://github.com/KevCaz/decomposenumbers):
 
       devtools::install_github("KevCaz/decomposenumbers"))
 
