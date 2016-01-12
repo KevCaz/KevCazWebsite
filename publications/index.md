@@ -12,14 +12,17 @@ order: 1
   {% assign sza = member.author | size  %}
   {% assign count = 0 %}
   {% for auteur in member.author %}
+    {% assign words = auteur.given | split: ' ' %}
+    {% assign kev = words[0] | slice: 0 %}
+    {% if auteur.family == 'Cazelles' and kev == 'K' %} <b> {% endif %}
     {% assign count = count | plus: 1 %}
     {{auteur.family}}
-    {% assign words = auteur.given | split: ' ' %}
     {% if count == sza %}
       {% for word in words %} {{ word | slice: 0 }}. {% endfor %}
     {% else %}
       {% for word in words %} {{ word | slice: 0 }}.{% endfor %},
     {% endif %}
+    {% if auteur.family == 'Cazelles' and kev == 'K' %} </b> {% endif %}
   {% endfor %}
 
   ({{member.issued.date-parts[0][0]}})
