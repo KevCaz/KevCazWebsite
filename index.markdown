@@ -7,8 +7,8 @@ layout: default
 
 - Kévin Cazelles
 - A PhD candidate who works on theoretical Biogeography at:
-    - [Institut des Sciences de L'Evolution de Montpellier](http://www.isem.univ-montp2.fr), Université de Montpellier, Montpellier, France. PhD supervisor: **Nicolas Mouquet**,
-    - [Laboratoire d'Ecologie Théorique](http://chaire-eec.uqar.ca), Université du Québec à Rimouski, Rimouski, Canada. PhD supervisor: **Dominique Gravel**.
+    - [MARine Biodiversity, Exploitation and Conservation (MARBEC)](http://www.umr-marbec.fr/fr), Université de Montpellier, Montpellier, France. PhD supervisor: **Nicolas Mouquet**,
+    - [Integrative Ecology Lab](http://ielab.recherche.usherbrooke.ca), Université de Sherbrooke, Sherbrooke, Canada. PhD supervisor: **Dominique Gravel**.
 - Contact:
   - <i class="fa fa-envelope"></i> [kevin.cazelles@um2.com](mailto:kevin.cazelles@um2.fr)
   - <i class="fa fa-github"></i> [KevCaz](https://github.com/KevCaz)
@@ -38,7 +38,7 @@ Beyond classical variables such as temperature, precipitations and edaphic facto
 *   [David Mouillot](http://www.umr-marbec.fr/mouillot-david.html), Université de Montpellier
 *   [Dominique Gravel](http://chaire-eec.uqar.ca/), Université du Québec à Rimouski
 *   [Nicolas Casajus](http://nicolascasajus.fr), Université du Québec à Rimouski,
-*   [Nicolas Mouquet](http://www.eec.univ-montp2.fr/people/nicolas-mouquet/), Université de Montpellier
+*   [Nicolas Mouquet](http://nicolasmouquet.free.fr), Université de Montpellier
 *   [Sonia Kéfi](http://sonia.kefi.fr), Université de Montpellier
 *   [Steve Vissault](http://www.steve-vissault.me), Université du Québec à Rimouski.
 *   [Timothée Poisot](http://poisotlab.io), Université de Montréal
