@@ -43,6 +43,7 @@ We will make the content below 'evolving' by collecting and indexing as many sou
 - **Comprehensive R Archive Network** ([CRAN](https://cran.r-project.org))
     - [Manuals](https://cran.r-project.org/manuals.html)
     - [Contributed manuals and cheat sheets](https://cran.r-project.org/other-docs.html)
+    - [ggplotwebsite](http://docs.ggplot2.org/current/index.html)
 
 - **Journals**
   - [R journal](https://journal.r-project.org)
@@ -60,12 +61,14 @@ We will make the content below 'evolving' by collecting and indexing as many sou
   - [Revolutions](http://blog.revolutionanalytics.com/about.html)
   - [R graph gallery](http://rgraphgallery.blogspot.ca)
   - [staRt](http://koenbro.blogspot.ca/?expref=next-blog)
+  - [R-bloggers](http://www.r-bloggers.com)
 
 
 <!-- #### Blog/Personnal Pages
 
 - [Paul Murrel](https://www.stat.auckland.ac.nz/~paul/)
 - [Hadley Wickham](http://had.co.nz)
+- [Lionel Hertzog(http://www.r-bloggers.com/author/lionel-hertzog/)]
 
 
 #### Github

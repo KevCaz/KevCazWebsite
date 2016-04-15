@@ -92,6 +92,11 @@ Nevertheless, you save a lot of coding time and it makes perfect sense for advan
 Finally, if you want to undertake a calculation which consumes a lot of time, you may have a look at the [snow package](http://cran.r-project.org/web/packages/snow/index.html) and related packages. They provide tools to parallel your code. Also if you are familiar with C and C++ programming languages, you will strongly benefit from the [Rcpp package](https://cran.r-project.org/web/packages/Rcpp/index.html). I recommend you to read [what Hadley Wickham wrote about Rcpp](http://adv-r.had.co.nz/Rcpp.html)) and also this paper by [Visser and colleagues](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140).
 
 
+## See also
+
+-[R in the landscape of data analysis software](http://r4stats.com/articles/popularity/)
+
+
 <br/>
 
 #### @++

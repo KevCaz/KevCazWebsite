@@ -3,7 +3,7 @@
   year: 2015
   lang: fr
   download: pres_biblio.zip
-  URL: /pres_biblio/index.html
+  URL: pres_biblio/index.html
   hosted: true
   category: teaching
 
@@ -12,6 +12,6 @@
   year: 2014
   lang: fr
   download: pres_Rmarkdown.zip
-  URL: /pres_Rmdown/index.html
+  URL: pres_Rmdown/index.html
   hosted: true
   category: teaching

@@ -13,8 +13,9 @@ layout: default
   - <i class="fa fa-envelope"></i> [kevin.cazelles@um2.com](mailto:kevin.cazelles@um2.fr)
   - <i class="fa fa-github"></i> [KevCaz](https://github.com/KevCaz)
   - <i class="fa fa-linkedin"></i> [Linked in profile](https://www.linkedin.com/in/kevin-cazelles-51552283)
-  - <i class="ai ai-researchgate-square fa-3x"></i> [Researchgate profile](https://www.researchgate.net/profile/Kevin_Cazelles)
+  - <i class="ai ai-orcid fa-3x"></i> [ORCID](http://orcid.org/0000-0001-6619-9874)
   - <i class="ai ai-mendeley-square fa-3x"></i> [Mendeley profile](https://www.mendeley.com/profiles/kevin-cazelles/)
+  - <i class="fa fa-linkedin"></i> [Linked in profile](https://www.linkedin.com/in/kevin-cazelles-51552283)
 - Curriculum Vitae [<i class="fa fa-file-pdf-o"></i>]({{site.baseurl}}/assets/CVKC.pdf) [<i class="fa fa-download"></i>]({{site.baseurl}}/assets/CVKC.zip)
 
 <br>

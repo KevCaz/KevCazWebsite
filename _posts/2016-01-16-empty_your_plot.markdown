@@ -2,7 +2,7 @@
 layout: post
 title: Empty your plot
 author: Kevin Cazelles
-date: 2016-01-14
+date: 2017-02-24
 packages:
   - graphics
 categories: Rgraphics
