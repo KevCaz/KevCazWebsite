@@ -20,7 +20,7 @@ layout: default
 
 <br>
 
-## What am I doing ?
+## What am I doing?
 
 <p style='text-align: justify;'>
 Behind the aesthetic value of Earth's biodiversity, there is one exciting challenge: unravelling the underlying causes of species' geographic distribution. Indeed, biogeographers strive to find the set of variables that best explains past and present distribution in order to accurately forecast tomorrow's species occurrences. This understanding is crucial to foresee and control impacts of anthropogenic forcing on biodiversity loss.
@@ -31,14 +31,14 @@ Beyond classical variables such as temperature, precipitations and edaphic facto
 
 <br>
 
-## With whom am I collaborating ?
+## With whom am I collaborating?
 
-*   [Bernard Cazelles](http://www.biologie.ens.fr/~cazelles/bernard/Welcome.html), Ecole Normale Supérieure (Paris)
-*   [Camille Albouy](http://albouycamille.free.fr/), Université du Québec à Rimouski
-*   [David Mouillot](http://www.umr-marbec.fr/mouillot-david.html), Université de Montpellier
-*   [Dominique Gravel](http://chaire-eec.uqar.ca/), Université du Québec à Rimouski
-*   [Nicolas Casajus](http://nicolascasajus.fr), Université du Québec à Rimouski,
-*   [Nicolas Mouquet](http://nicolasmouquet.free.fr), Université de Montpellier
-*   [Sonia Kéfi](http://sonia.kefi.fr), Université de Montpellier
-*   [Steve Vissault](http://www.steve-vissault.me), Université du Québec à Rimouski.
-*   [Timothée Poisot](http://poisotlab.io), Université de Montréal
+*   [Bernard Cazelles](http://www.biologie.ens.fr/~cazelles/bernard/Welcome.html), Ecole Normale Supérieure (Paris),
+*   [Camille Albouy](http://albouycamille.free.fr/),  ETH of Zurich,
+*   [David Mouillot](http://www.umr-marbec.fr/mouillot-david.html), Université de Montpellier,
+*   [Dominique Gravel](http://qcbs.ca/fr/membres/les-chercheurs/?profile=89), Université de Sherbrooke,
+*   [Nicolas Casajus](http://www.uqar.ca/specialistes/equipe/casajus-nicolas/), Université du Québec à Rimouski,
+*   [Nicolas Mouquet](http://nicolasmouquet.free.fr), Université de Montpellier,
+*   [Sonia Kéfi](http://sonia.kefi.fr), Université de Montpellier,
+*   [Steve Vissault](http://steveviss.github.io), Université de Sherbrooke,
+*   [Timothée Poisot](http://poisotlab.io), Université de Montréal.
