@@ -6,6 +6,40 @@ order: 1
 
 ## Academic Contributions
 
+<br>
+
+### *Under review*
+
+<ul>
+{% for member in site.data.review %}
+  <li>
+  {% assign sza = member.author | size  %}
+  {% assign count = 0 %}
+  {% for auteur in member.author %}
+    {% assign words = auteur.given | split: ' ' %}
+    {% assign kev = words[0] | slice: 0 %}
+    {% if auteur.family == 'Cazelles' and kev == 'K' %} <b> {% endif %}
+    {% assign count = count | plus: 1 %}
+    {{auteur.family}}
+    {% if count == sza %}
+      {% for word in words %} {{ word | slice: 0 }}. {% endfor %}
+    {% else %}
+      {% for word in words %} {{ word | slice: 0 }}.{% endfor %},
+    {% endif %}
+    {% if auteur.family == 'Cazelles' and kev == 'K' %} </b> {% endif %}
+    {% endfor %}
+    ({{member.year}})
+    <b>{{member.title}}</b>.
+   <i>{{member.container-title}}</i>
+  </li>
+  <br>
+
+{% endfor %}
+</ul>
+
+
+### *Published*
+
 <ul>
 {% for member in site.data.publi.references %}
   <li>
@@ -47,7 +81,8 @@ order: 1
 
 
 
-<!-- Popularization Science -->
+
+<br>
 
 ## Popularization Science
 
@@ -65,7 +100,8 @@ order: 1
 </ul>
 
 
-<!-- Reports -->
+
+<br>
 
 ## Reports
 

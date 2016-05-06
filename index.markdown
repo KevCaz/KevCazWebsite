@@ -3,20 +3,32 @@ layout: default
 ---
 
 
+
 ## About me
 
 - Kévin Cazelles
 - A PhD candidate who works on theoretical Biogeography at:
     - [MARine Biodiversity, Exploitation and Conservation (MARBEC)](http://www.umr-marbec.fr/fr), Université de Montpellier, Montpellier, France. PhD supervisor: **Nicolas Mouquet**,
-    - [Integrative Ecology Lab](http://ielab.recherche.usherbrooke.ca), Université de Sherbrooke, Sherbrooke, Canada. PhD supervisor: **Dominique Gravel**.
-- Contact:
-  - <i class="fa fa-envelope"></i> [kevin.cazelles@um2.com](mailto:kevin.cazelles@um2.fr)
-  - <i class="fa fa-github"></i> [KevCaz](https://github.com/KevCaz)
-  - <i class="fa fa-linkedin"></i> [Linked in profile](https://www.linkedin.com/in/kevin-cazelles-51552283)
-  - <i class="ai ai-orcid fa-3x"></i> [ORCID](http://orcid.org/0000-0001-6619-9874)
-  - <i class="ai ai-mendeley-square fa-3x"></i> [Mendeley profile](https://www.mendeley.com/profiles/kevin-cazelles/)
-  - <i class="fa fa-linkedin"></i> [Linked in profile](https://www.linkedin.com/in/kevin-cazelles-51552283)
-- Curriculum Vitae [<i class="fa fa-file-pdf-o"></i>]({{site.baseurl}}/assets/CVKC.pdf) [<i class="fa fa-download"></i>]({{site.baseurl}}/assets/CVKC.zip)
+    - [Integrative Ecology Lab](http://ielab.recherche.usherbrooke.ca), Université de Sherbrooke, Sherbrooke, Canada. PhD supervisor:  **Dominique Gravel**.
+    - Contact:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    [<i class="fa fa-envelope fa-2x"></i>](mailto:kevin.cazelles@um2.fr)
+    &nbsp;&nbsp;
+    [<i class="fa fa-github fa-2x"></i>](https://github.com/KevCaz)
+    &nbsp;&nbsp;
+    [<i class="ai ai-orcid ai-2x"></i>](http://orcid.org/0000-0001-6619-9874)
+    &nbsp;&nbsp;
+    [<i class="fa fa-linkedin fa-2x"></i>](https://www.linkedin.com/in/kevin-cazelles-51552283)
+    &nbsp;&nbsp;
+    [<i class="ai ai-mendeley ai-2x"></i>](https://www.mendeley.com/profiles/kevin-cazelles/)
+    &nbsp;&nbsp;
+    [<i class="ai ai-researchgate-square ai-2x"></i>](https://www.researchgate.net/profile/Kevin_Cazelles)
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa fa-phone fa-2x" aria-hidden="true"></i> : +1 418 723-1986 1569
+
+    - Curriculum Vitae &nbsp;[<i class="fa fa-file-pdf-o  fa-2x"></i>]({{site.baseurl}}/assets/CVKC.pdf) &nbsp;[<i class="fa  fa-download  fa-2x"></i>]({{site.baseurl}}/assets/CVKC.zip)
 
 <br>
 
@@ -30,6 +42,7 @@ Beyond classical variables such as temperature, precipitations and edaphic facto
 </p>
 
 <br>
+
 
 ## With whom am I collaborating?
 

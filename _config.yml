@@ -5,38 +5,24 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+
+# For multi langage pluggin
+language_data: data.lang.%%
+language_includes_dir: _i18n
+
 # Site settings
 title: KevCaz's home page
 email: kevin.cazelles@um2.fr
-description: > # this means to ignore newlines until "baseurl:"
-  Kevin Cazelles is a phD student working in theoretical ecology.
+description: "Kevin Cazelles is a phD student working in theoretical ecology."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kevincazelles.fr" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
+
 github_username:  KevCaz
+
 
 # Build settings
 markdown: kramdown
 
 # orcid / jekyll
-# author:
-#   orcid: 0000-0001-6619-9874
-#
-# scholar:
-#   style: apa
-#   locale: en
-#
-#   sort_by: year
-#   order: reverse
-#
-#   source: ./_bibliography
-#   bibliography: references.bib
-#   bibliography_template: bib
-#
-#   replace_strings: true
-#   join_strings:    true
-#
-#   bibliography_list_tag: p
-#   bibliography_item_tag: p
-#
-#   query: "@*"
+author:
+ orcid: 0000-0001-6619-9874
