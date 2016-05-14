@@ -1,0 +1,278 @@
+
+## Colors
+
+- namepkg: colorspace
+  text: "Color Space Manipulation"
+  CRAN: https://cran.r-project.org/web/packages/colorspace/index.html
+  category: Colors
+  order: 2
+
+- namepkg: dichromat
+  text: "Collapse red-green or green-blue distinctions to simulate the effects of different types of color-blindness."
+  CRAN: https://cran.r-project.org/web/packages/dichromat/index.html
+  category: Colors
+  order: 2
+
+- namepkg: RColorBrewer
+  text: "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer."
+  CRAN: https://cran.r-project.org/web/packages/RColorBrewer/index.html
+  category: Colors
+  order: 2
+
+- namepkg: wesanderson
+  text: "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer."
+  CRAN: https://cran.r-project.org/web/packages/RColorBrewer/index.html
+  github: karthik/wesanderson
+  category: Colors
+  order: 2
+
+
+## Fonts / Emoji
+
+- namepkg: extrafont
+  text: "Tools to using fonts other than the standard PostScript fonts"
+  github: https://github.com/wch/extrafont
+  category: Fonts
+  order: 4
+
+- namepkg: showtext
+  text: "Using Fonts More Easily in R Graphs"
+  github: yixuan/showtext
+  pdf: https://journal.r-project.org/archive/2015-1/qiu.pdf
+  category: Fonts
+  order: 4
+
+- namepkg: emojifont
+  text: "An implementation of using emoji font in both base and 'ggplot2' graphics."
+  github: GuangchuangYu/emojifont
+  category: Fonts
+  order: 4
+
+
+## Plot3D
+
+- namepkg: plot3D
+  text: "Functions for viewing 2-D and 3-D data, including perspective plots, slice plots, surface plots, scatter plots, etc."
+  category: 3D plots
+  order: 5
+
+- namepkg: misc3d
+  text: "A collection of miscellaneous 3d plots, including isosurfaces."
+  category: 3D plots
+  order: 5
+
+- namepkg: scatterplot3d
+  text: "Plots a three dimensional (3D) point cloud."
+  category: 3D plots
+  order: 5
+
+
+
+## Diagrams
+
+- namepkg: DiagrammeR
+  text: "Create network graph diagrams."
+  github: rich-iannone/DiagrammeR
+  website: http://rich-iannone.github.io/DiagrammeR/
+  category: Graph diagrams / Flowcharts / Networks
+  order: 3
+
+- namepkg: shape
+  text: "Functions for plotting graphical shapes, colors."
+  category: Graph diagrams / Flowcharts / Networks
+  order: 3
+
+- namepkg: diagram
+  text: "Visualising simple graphs, flowcharts, and webs."
+  category: Graph diagrams / Flowcharts / Networks
+  order: 3
+
+- namepkg: igraph
+  text: "Network Analysis and Visualization."
+  wesbsite: http://igraph.org/r/
+  category: Graph diagrams / Flowcharts / Networks
+  order: 3
+
+- namepkg: VennDiagram
+  text : "A set of functions to generate high-resolution Venn and Euler plots."
+  category: Graph diagrams / Flowcharts / Networks
+  order: 3
+
+
+
+## Miscellaneous
+
+- namepkg: vcd
+  text: "Visualization techniques, data sets, summary and inference procedures aimed particularly at categorical data."
+  doi: 10.18637/jss.v017.i03
+  category: Categorical data
+  order: 6
+
+- namepkg: tourr
+  text: "Implement Tour Methods in R Code."
+  github: ggobi/tourr/
+  doi: 10.18637/jss.v040.i02
+  category: Miscellaneous
+  order: 6
+
+
+
+## ggplot2 and family
+- namepkg: ggplot2
+  text: "An implementation of the grammar of graphics in R."
+  github: hadley/ggplot2
+  website: http://ggplot2.org
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggthemes
+  text: "Some extra themes, geoms, and scales for 'ggplot2'"
+  github: /jrnold/ggthemes
+  website: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggbeeswarm
+  text: "Beeswarm-style plots with ggplot2."
+  github: eclarke/ggbeeswarm
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggcorrplot
+  text: "Visualization of a correlation matrix using ggplot2"
+  github: kassambara/ggcorrplot
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggdendro
+  text: "Set of tools for dendrograms and tree plots using 'ggplot2'."
+  github: andrie/ggdendro
+  website: https://cran.r-project.org/web/packages/ggdendro/vignettes/ggdendro.html
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: gge
+  text: "Create biplots for GGE (genotype plus genotype-by-environment) and GGB (genotype plus genotype-by-block-of-environments) models."
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggenealogy
+  text: "Visualization Tools for Genealogical Data."
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggExtra
+  text: "Add marginal histograms to ggplot2, and more ggplot2 enhancements."
+  github: /daattali/ggExtra
+  category: ggplot2 and family
+  website: https://cran.r-project.org/web/packages/ggExtra/vignettes/overview.html
+  order: 4
+
+- namepkg: ggiraph
+  text: "Create interactive 'ggplot2' graphics that are usable in the 'RStudio' viewer pane, in 'R Markdown' documents and in 'Shiny' apps."
+  github: davidgohel/ggiraph
+  category: ggplot2 and family
+  order: 4
+
+
+- namepkg: ggmap
+  text: "A collection of functions to visualize spatial data and models on top of static maps from various online sources."
+  category: ggplot2 and family
+  github: dkahle/ggmap
+  order: 4
+
+
+- namepkg: ggnetwork
+  text: "Geometries to plot network objects with 'ggplot2'."
+  github: briatte/ggnetwork
+  category: ggplot2 and family
+  order: 4
+  website: https://cran.r-project.org/web/packages/ggnetwork/vignettes/ggnetwork.html
+
+- namepkg: ggparallel
+  text: "Create hammock plots, parallel sets, and common angle plots with ggplot2."
+  category: ggplot2 and family
+  github: heike/ggparallel
+  order: 4
+
+
+- namepkg: ggpmisc
+  text: "Extensions to 'ggplot2' respecting the grammar of graphics paradigm."
+  bitbuck: aphalo/ggpmisc
+  category: ggplot2 and family
+  website: https://cran.r-project.org/web/packages/ggpmisc/vignettes/examples.html
+  order: 4
+
+- namepkg: ggRandomForests
+  text: "Graphic elements for exploring Random Forests."
+  github: ehrlinger/ggRandomForests
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggraptR
+  text: "Allows Interactive Visualization of Data Through a Web Browser GUI."
+  category: ggplot2 and family
+  github: cargomoose/raptR
+  order: 4
+
+- namepkg: ggrepel
+  text: "Provides text and label geoms for 'ggplot2' that help to avoid overlapping text labels."
+  github: slowkow/ggrepel
+  website: https://cran.r-project.org/web/packages/ggrepel/vignettes/ggrepel.html
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggROC
+  text: "Package for roc curve plot with ggplot2."
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggsci
+  text: "Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2."
+  github: road2stat/ggsci
+  website: http://ggsci.net
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggseas
+  text: "Seasonal adjustment on the fly extension for ggplot2."
+  github: ellisp/ggseas
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggsn
+  text: "Adds north symbols and scale bars to maps created with 'ggplot2' or 'ggmap'."
+  github: oswaldosantos/ggsn
+  website: http://oswaldosantos.github.io/ggsn/
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggspectra
+  text: "Extensions to 'ggplot2' for Radiation Spectra"
+  bitbuck: /aphalo/ggspectra
+  website: https://cran.r-project.org/web/packages/ggspectra/index.html
+  category: ggplot2 and family
+  order: 4
+
+
+- namepkg: ggtern
+  text: "An Extension to 'ggplot2', for the Creation of Ternary Diagrams"
+  github: nicholasehamilton/ggtern
+  website: http://www.ggtern.com
+  category: ggplot2 and family
+  order: 4
+
+- namepkg: ggThemeAssist
+  text: "Rstudio add-in that delivers a graphical interface for editing 'ggplot2' theme elements."
+  github: calligross/ggthemeassist
+  category: ggplot2 and family
+  order: 4
+
+
+
+- namepkg: ggvis
+  text: "An implementation of an interactive grammar of graphics, taking the best parts of 'ggplot2', combining them with the reactive framework from 'shiny' and web graphics from 'vega'."
+  github: rstudio/ggvis
+  website: http://ggvis.rstudio.com
+  category: ggplot2 and family
+  order: 4

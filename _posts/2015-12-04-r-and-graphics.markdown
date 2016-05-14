@@ -8,11 +8,11 @@ categories: Rgraphics
 
 *'Evolving post' written in collaboration with [Nicolas Casajus](http://nicolascasajus.fr) and [Marie-Hélène Greffard](http://www.er.uqam.ca/nobel/r3424621/labo/fr/site/Marie-Helene.html).*
 <br/>
-*Last edit: Dec 3, 2015*
+*Last edit: May 14, 2016*
 
 <br/>
 
-### Why use R to produce graphics?
+## Why use R to produce graphics?
 
 S, R's ancestor[^note1], was first designed to be an interactive interface for calling routines from the SCS (Statistical Computing Subroutines) FORTRAN library. It expanded to be a complete programming language dedicated to data manipulation, statistical analysis and data visualization (see [A brief History of S](http://www.lcg.unam.mx/~lcollado/R/resources/history_of_S.pdf)). Today's graphical system of R is directly derived from the one of S. When R is installed[^note2] we get from it two base packages, ['graphics'](https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/00Index.html) and ['grid'](https://stat.ethz.ch/R-manual/R-devel/library/grid/html/00Index.html), which produce graphics that are exported with the [grDevices](https://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/00Index.html) package. These packages are very complete and flexible. They allow users to efficiently create graphics that scientists use in their day to day operations, *i.e.* scatterplots, box plots, histograms, etc. We consider that the 'graphics' package is somewhat more user-friendly than the trickier 'grid' package which offers better facilities to develop new graphical functions (e.g. grid' has been employed to build [ggplot2](https://cran.r-project.org/web/packages/ggplot2)). Recently, the [gridGraphics](https://journal.r-project.org/archive/2015-1/murrell.pdf) package has been developed to bridge the gap between 'grid' and 'graphics' packages.
 
@@ -35,15 +35,15 @@ This blog is dedicated to help you realize these advantages. Examples will be pr
 
 <br/>
 
-### Documentation
+## Documentation
 
 We will make the content below 'evolving' by collecting and indexing as many sources of documentation as possible. Please comment in the Disqus section below to suggest and/or provide your own sources:
 
 
 - **Comprehensive R Archive Network** ([CRAN](https://cran.r-project.org))
-    - [Manuals](https://cran.r-project.org/manuals.html)
-    - [Contributed manuals and cheat sheets](https://cran.r-project.org/other-docs.html)
-    - [ggplotwebsite](http://docs.ggplot2.org/current/index.html)
+  - [Manuals](https://cran.r-project.org/manuals.html)
+  - [Contributed manuals and cheat sheets](https://cran.r-project.org/other-docs.html)
+  - [ggplotwebsite](http://docs.ggplot2.org/current/index.html)
 
 - **Journals**
   - [R journal](https://journal.r-project.org)
@@ -56,35 +56,61 @@ We will make the content below 'evolving' by collecting and indexing as many sou
   - [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)
 
 - **Blogs**:
+  - [R-bloggers](http://www.r-bloggers.com)
   - [inside-R](http://www.inside-r.org)
   - [Quick-R](http://www.statmethods.net/about/learningcurve.html)
   - [Revolutions](http://blog.revolutionanalytics.com/about.html)
   - [R graph gallery](http://rgraphgallery.blogspot.ca)
   - [staRt](http://koenbro.blogspot.ca/?expref=next-blog)
-  - [R-bloggers](http://www.r-bloggers.com)
 
-
-<!-- #### Blog/Personnal Pages
-
-- [Paul Murrel](https://www.stat.auckland.ac.nz/~paul/)
-- [Hadley Wickham](http://had.co.nz)
-- [Lionel Hertzog(http://www.r-bloggers.com/author/lionel-hertzog/)]
-
-
-#### Github
-
-- [Hadley Wickham](https://github.com/hadley)
-- [Paul Murrel](https://github.com/pmur002)
-- [David Lawrence Miller](https://github.com/dill)
-- [Gábor Csárdi](https://github.com/gaborcsardi)
-- [Karthik Ram](https://github.com/karthik) -->
 
 
 <br/>
 
-### Packages
 
-Many packages for graphics are indexed in a dedicated [task view maintained by Nicholas Lewin-Koh](https://cran.r-project.org/web/views/Graphics.html). We have indexed many and refer to more in tables below.
+## Packages
+
+Find package [here](http://rpackages.ianhowson.com) A comprehensive index of R packages and documentation from CRAN, Bioconductor, GitHub and R-Forge. Package on the CRNA ()[ https://cran.r-project.org/web/packages/available_packages_by_name.html]
+Many packages for graphics are indexed in a dedicated [task view maintained by Nicholas Lewin-Koh](https://cran.r-project.org/web/views/Graphics.html). We have indexed many of them and refer to more below.
+For each package, when available, we provide :
+
+  - the link associated to the the name of the package goes to the [CRAN](https://cran.r-project.org) repository where the manual and optional vignettes can be found,
+  - <a href=""><i class="fa fa-github"></i></a> : link to the associated [Github](https://github.com) repository,
+  - <a href=""><i class="fa fa-bitbucket"></i></a> : link to the associated [Bitbucket](https://bitbucket.org) repository,
+  - <a href=""><i class="fa fa-globe"></i></a> : link to the dedicated website or a html vignette that present well the package,
+  - <a href=""><i class="fa fa-link"></i></a> : link to a related publication,
+  - <a href=""><i class="fa fa-file-pdf-o"></i></a> : link to associated pdf file (in the R journal for instance).
+
+
+{% assign pkg_by_cat = site.data.Rpkgs | group_by:"category" | sort:"name" %}
+
+{% for pkg_cat in pkg_by_cat %}
+  <br/>
+  <h3> &nbsp;{{pkg_cat.name}} </h3>
+  <ul>
+    {% for pkg in pkg_cat.items %}
+      <li>
+        <a href="https://cran.r-project.org/web/packages/{{pkg.namepkg}}/index.html">{{pkg.namepkg}}</a>:   <i>{{pkg.text}}</i>
+        {% if pkg.github %} <a href="https://github.com/{{pkg.github}}"><i class="fa fa-github"></i></a> {% endif %}
+        {% if pkg.bitbuck %} <a href="https://bitbucket.org/{{pkg.bitbuck}}"><i class="fa fa-bitbucket"></i></a> {% endif %}
+        {% if pkg.website %} <a href="{{pkg.website}}"><i class="fa fa-globe"></i></a> {% endif %}
+        {% if pkg.doi %} <a href="https://doi.org/{{pkg.doi}}"><i class="fa fa-link"></i></a> {% endif %}
+        {% if pkg.pdf %}  <a href="{{pkg.pdf}}"><i class="fa fa-file-pdf-o"></i></a> {% endif %}
+
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+
+<br/>
+
+
+
+
+
+
+
 
 - **Main Packages**
 
@@ -96,30 +122,11 @@ Many packages for graphics are indexed in a dedicated [task view maintained by N
 | [gridGraphics](https://cran.r-project.org/web/packages/gridGraphics/) | Functions to convert a page of plots drawn with the graphics package into an identical output drawn with the grid package (see also [this article](https://journal.r-project.org/archive/2015-1/murrell.pdf))
 | [grDevices](https://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/00Index.html) | Graphics Devices and Support for Colours and Fonts |
 | [lattice](https://cran.r-project.org/web/packages/lattice) | R implementation of Trellis Graphics |
-| [ggplot2](https://cran.r-project.org/web/packages/ggplot2) | R implementation of Leland Wilkinson's "Grammar of Graphics"|
 | [plotrix](https://cran.r-project.org/web/packages/plotrix) | Various plotting function
 | [gridGraphics](https://cran.r-project.org/web/packages/gridGraphics/) | Functions to convert a page of plots drawn with the graphics package into an identical output drawn with the grid package (see also [this article](https://journal.r-project.org/archive/2015-1/murrell.pdf))
 
 <br/>
 
-- **Colors**
-
-|[colorscience](https://cran.r-project.org/web/packages/colorscience/index.html) | Methods and data for color science - color conversions by observer, illuminant and gamma |
-| [colorspace](https://stat.ethz.ch/R-manual/R-devel/library/grid/html/00Index.html) | A flexible package that supplements 'graphics' |
-| [dichromat](https://cran.r-project.org/web/packages/dichromat/index.html) | Collapse red-green or green-blue distinctions to simulate the effects of different types of color-blindness |
-| [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html) | Provides color schemes for maps (and other graphics) designed by Cynthia Brewer |
-| [wesanderson](https://cran.r-project.org/web/packages/wesanderson/) | Palettes generated mostly from Wes Anderson movies |
-
-
-
-<br/>
-
-- **Fonts**
-
-| [extrafont](https://cran.r-project.org/web/packages/extrafont/index.html) | Tools to using fonts other than the standard PostScript fonts |
-| [showtext](https://cran.r-project.org/web/packages/showtext/index.html) | Using Fonts More Easily in R Graphs |
-
-<br/>
 
 - **Import and Export images/shapefiles in different format**
 
@@ -128,19 +135,10 @@ Many packages for graphics are indexed in a dedicated [task view maintained by N
 | [jpeg](https://cran.r-project.org/web/packages/jpeg/index.html) | Reads JPEG bitmap images stored in the JPEG format |
 | [pixmap](https://cran.r-project.org/web/packages/pixmap/index.html) | Functions for import, export, plotting and other manipulations of bitmapped images |
 | [png](https://cran.r-project.org/web/packages/png/index.html) | Reads bitmap images stored in the PNG format |
-| [maptools](https://cran.r-project.org/web/packages/png/index.html) | Set of tools for manipulating and reading geographic data, in particular ESRI shapefiles |
-| [raster](https://cran.r-project.org/web/packages/raster/index.html)| Reading, writing, manipulating, analyzing and modeling of gridded spatial data |
-| [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html)| Reads shapefiles and raset using Frank Warmerdam's Geospatial Data Abstraction Library |
+
 
 <br/>
 
-- **Plot 3d**
-
-| [ggplot2](https://cran.r-project.org/web/packages/lattice) | see this [post](http://www.r-bloggers.com/3d-plots-with-ggplot2-and-plotly/) as an example |
-| [lattice](https://cran.r-project.org/web/packages/lattice) | see functions `cloud()` and `wireframe()` |
-| [misc3d](https://cran.r-project.org/web/packages/misc3d/index.html) | Reads bitmap images stored in the PNG format |
-| [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) | Plotting multi-dimensional data |
-| [scatterplot3d](https://cran.r-project.org/web/packages/scatterplot3d/index.html) | Reads JPEG bitmap images stored in the JPEG format |
 
 <br/>
 
@@ -150,17 +148,16 @@ Many packages for graphics are indexed in a dedicated [task view maintained by N
 | [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) | Create Interactive Web Maps with the JavaScript 'Leaflet' library |
 | [OpenStreetMap](https://cran.r-project.org/web/packages/OpenStreetMap/index.html) | Accesses high resolution raster maps using the OpenStreetMap protocol|
 | [maps](https://cran.r-project.org/web/packages/maps/index.html) | Draw Geographical Maps |
-
-
+| [maptools](https://cran.r-project.org/web/packages/png/index.html) | Set of tools for manipulating and reading geographic data, in particular ESRI shapefiles |
+| [raster](https://cran.r-project.org/web/packages/raster/index.html)| Reading, writing, manipulating, analyzing and modeling of gridded spatial data |
+| [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html)| Reads shapefiles and raset using Frank Warmerdam's Geospatial Data Abstraction Library |
 
 <br/>
+
 
 - **Other plotting functions/packages**
 
 | [ape](https://cran.r-project.org/web/packages/ape/index.html) | Analyses of Phylogenetics and Evolution, see `plot.phylo()` and `plot.multiPhylo()` |
-| [igraph](https://cran.r-project.org/web/packages/igraph/index.html) |  Graph visualization, see `plot.igraph()`  |
-| [shape](https://cran.r-project.org/web/packages/shape/index.html) | Functions for plotting graphical shapes, colors |
-| [vcd](https://cran.r-project.org/web/packages/vcd/index.html) | Visualizing Categorical Data |
 
 
 
@@ -169,7 +166,7 @@ Many packages for graphics are indexed in a dedicated [task view maintained by N
 
 [^note1]: R has strongly inherited from S and Scheme, see [Genesis](https://cran.r-project.org/doc/html/interface98-paper/paper_1.html).
 
-[^note2]: The last version is 3.2.2, [29 base and recommended packages](https://stat.ethz.ch/R-manual/R-devel/library) are installed by default.
+[^note2]: The last version is 3.2.2, [29 base and recommended packages](https://stat.ethz.ch/R-manual/R-devel/doc/html/packages.html) are installed by default.
 
 <br/>
 

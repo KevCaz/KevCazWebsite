@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  5 R functions you must remember
+title:  5 R hints you must remember
 author: Kevin Cazelles
 date: 2015-12-20
 categories: R

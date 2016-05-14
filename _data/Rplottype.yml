@@ -1,0 +1,206 @@
+- name: Histogram
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Density plot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Barchart
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Boxplot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Dotchart
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Piechart
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Scatterplot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Biplot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Line chart
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Balloon plot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Mosaicplot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Bubbleplot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Sunflower plot
+  basic:
+  ggplot:
+  package: jiter
+  category:
+
+- name: Time-line chart
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Heatmap
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Boxplot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Sparkline
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Cartogram
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Map
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Tree map
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Network
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Cumulated curve
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Polar plot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Radar plot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Streamgraph
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Trellis
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Scatter matrix
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Stem-and-leaf plot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Scatter-3D
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Parallel coordinates
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: QQ-Plot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: ACF plot
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Surface/contour
+  basic:
+  ggplot:
+  package:
+  category:
+
+- name: Dendrogram
+  basic:
+  ggplot:
+  package:
+  category:
+
+
+    # http://www.r-bloggers.com/3d-plots-in-r/
