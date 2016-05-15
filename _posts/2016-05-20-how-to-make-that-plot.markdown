@@ -2,7 +2,7 @@
 layout: post
 title:  How to make that plot?
 author: Kevin Cazelles, Nicolas Casajus
-date: 2016-05-14
+date: 2016-05-21
 categories: Rgraphics
 ---
 

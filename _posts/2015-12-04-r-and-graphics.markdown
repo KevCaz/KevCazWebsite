@@ -87,9 +87,10 @@ when available, we also provide :
 
 {% assign pkg_by_cat = site.data.Rpkgs | group_by:"category" | sort:"name" %}
 
+
 {% for pkg_cat in pkg_by_cat %}
   <br/>
-  <h3> &nbsp;{{pkg_cat.name}} </h3>
+  <h3 id="{{pkg_cat.name}}"> {{pkg_cat.name}} </h3>
   <ul>
     {% for pkg in pkg_cat.items %}
       <li>
@@ -106,18 +107,19 @@ when available, we also provide :
 {% endfor %}
 
 
-
-
-
 <br/>
+
+
+-That's all folks-
+
 
 
 [^note1]: R has strongly inherited from S and Scheme, see [Genesis](https://cran.r-project.org/doc/html/interface98-paper/paper_1.html).
 
 [^note2]: The last version is 3.2.2, [29 base and recommended packages](https://stat.ethz.ch/R-manual/R-devel/doc/html/packages.html) are installed by default.
 
-<br/>
 
-#### That's all Folks
+
+
 
 <br/>

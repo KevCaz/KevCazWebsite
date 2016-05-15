@@ -61,6 +61,7 @@ Damned! He is right... However I feel that we must question the scope of our dre
 
 <br/>
 
-#### I hope this could be of interest!
+
+I hope this could be of interest!
 
 <br/>

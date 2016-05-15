@@ -31,11 +31,37 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
+h1,  h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+}
+
+
+// Trick to anchor elow the top of the page
+
+h2:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
+
+h3:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
+
+
+h4:before {
+  margin-top: -75px;
+  height: 75px;
+  display: inline-block;
 }
 
 
@@ -160,8 +186,8 @@ pre {
 
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
@@ -173,6 +199,9 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
+
+
+
 
 
 

@@ -7,11 +7,22 @@
 
     {% include header.html %}
 
+    <!-- Table of content -->
+    <div id="toc">
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $('#toc').toc({listType: 'ul'}) ;
+      });
+      </script>
+    </div>
+
+
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
+
 
     {% include footer.html %}
 
