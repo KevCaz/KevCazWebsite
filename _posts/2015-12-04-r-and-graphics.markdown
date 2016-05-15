@@ -20,20 +20,21 @@ That being said, the advantages are numerous and more can be built in. For insta
 
 {% for post in site.posts %}{% if post.title == 'R and me' %}{% assign cool = post.url %}{% endif %}{% endfor %}
 
-1- You obtain all the advantages linked with using R, *i.e.* it is free, lot of documentation exists, a very large community of users, there are many packages, it is easy to learn ([see this former post]({{ cool | prepend: site.baseurl }})).
+1. You obtain all the advantages linked with using R, *i.e.* it is free, lot of documentation exists, a very large community of users, there are many packages, it is easy to learn ([see this former post]({{ cool | prepend: site.baseurl }})).
 
-2- Any kind of graphics a scientist needs has already been implemented by many contributors (see the packages review below). If you find there is room for improvement or that we are mistaken, all information is available to further develop missing plotting functions or correct existing ones.
+2. Any kind of graphics a scientist needs has already been implemented by many contributors (see the packages review below). If you find there is room for improvement or that we are mistaken, all information is available to further develop missing plotting functions or correct existing ones.
 
-3- Almost everything is possible. All graphics are fully customizable. Some time is required to learn the works, but it's worth it.
+3. Almost everything is possible. All graphics are fully customizable. Some time is required to learn the works, but it's worth it.
 
-4- Although there may be many good reasons to use software to post-treat graphics R produces in WYSIWYG softwares, we contend that once you master R, you will never do so. When a graphics is done, it is associated with only a few lines of code. Changing solely the lines of code is a much more efficient way more efficient to solve any problem than reproducing and post-treating the graphics. As scientists, it is a victory to only modify a few lines of code when reviewers quibble about a figure.
+4. Although there may be many good reasons to use software to post-treat graphics R produces in WYSIWYG softwares, we contend that once you master R, you will never do so. When a graphics is done, it is associated with only a few lines of code. Changing solely the lines of code is a much more efficient way more efficient to solve any problem than reproducing and post-treating the graphics. As scientists, it is a victory to only modify a few lines of code when reviewers quibble about a figure.
 
-5- Once a graphics is created, we can export it in many formats: 'eps', 'jpeg', 'pdf', 'bmp', 'svg' with appropriate resolution and size. There is 100% guarantee that you will meet a journal's requirements for figures publication.
+5. Once a graphics is created, we can export it in many formats: 'eps', 'jpeg', 'pdf', 'bmp', 'svg' with appropriate resolution and size. There is 100% guarantee that you will meet a journal's requirements for figures publication.
 
-This blog is dedicated to help you realize these advantages. Examples will be provided with many parameters to ensure you can get exactly what you want (in term of graphics). We wish to show and assist you in making everything possible. Every tool is already available and we made some more accessible through this [graphicsutils](https://github.com/KevCaz/graphicsutils) package available on github.
-
+<!-- This blog section is dedicated to help you realize these advantages. Examples will be provided with many parameters to ensure you can get exactly what you want (in term of graphics). We wish to show and assist you in making everything possible. Every tool is already available and we made some more accessible through this [graphicsutils](https://github.com/KevCaz/graphicsutils) package available on github.
+ -->
 
 <br/>
+
 
 ## Documentation
 
@@ -43,15 +44,13 @@ We will make the content below 'evolving' by collecting and indexing as many sou
 - **Comprehensive R Archive Network** ([CRAN](https://cran.r-project.org))
   - [Manuals](https://cran.r-project.org/manuals.html)
   - [Contributed manuals and cheat sheets](https://cran.r-project.org/other-docs.html)
-  - [ggplotwebsite](http://docs.ggplot2.org/current/index.html)
 
 - **Journals**
   - [R journal](https://journal.r-project.org)
   - [Journal of Statistical Software](http://www.jstatsoft.org/index)
 
 - **Books**:
-  - [Rgraphics](http://www.e-reading.club/bookreader.php/137370/C486x_APPb.pdf)    
-  - [Rgraphics, Second Edition](http://www.amazon.com/Graphics-Second-Edition-Chapman-Series/dp/1439831769)
+  - [Rgraphics, Second Edition](https://www.stat.auckland.ac.nz/~paul/RG2e/index.html)
   - [ggplot2](http://ms.mcmaster.ca/~bolker/misc/ggplot2-book.pdf)
   - [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)
 
@@ -61,8 +60,7 @@ We will make the content below 'evolving' by collecting and indexing as many sou
   - [Quick-R](http://www.statmethods.net/about/learningcurve.html)
   - [Revolutions](http://blog.revolutionanalytics.com/about.html)
   - [R graph gallery](http://rgraphgallery.blogspot.ca)
-  - [staRt](http://koenbro.blogspot.ca/?expref=next-blog)
-
+  - [A newer graph gallery](http://www.r-graph-gallery.com)
 
 
 <br/>
@@ -70,16 +68,21 @@ We will make the content below 'evolving' by collecting and indexing as many sou
 
 ## Packages
 
-Find package [here](http://rpackages.ianhowson.com) A comprehensive index of R packages and documentation from CRAN, Bioconductor, GitHub and R-Forge. Package on the CRNA ()[ https://cran.r-project.org/web/packages/available_packages_by_name.html]
-Many packages for graphics are indexed in a dedicated [task view maintained by Nicholas Lewin-Koh](https://cran.r-project.org/web/views/Graphics.html). We have indexed many of them and refer to more below.
-For each package, when available, we provide :
 
-  - the link associated to the the name of the package goes to the [CRAN](https://cran.r-project.org) repository where the manual and optional vignettes can be found,
-  - <a href=""><i class="fa fa-github"></i></a> : link to the associated [Github](https://github.com) repository,
-  - <a href=""><i class="fa fa-bitbucket"></i></a> : link to the associated [Bitbucket](https://bitbucket.org) repository,
-  - <a href=""><i class="fa fa-globe"></i></a> : link to the dedicated website or a html vignette that present well the package,
-  - <a href=""><i class="fa fa-link"></i></a> : link to a related publication,
-  - <a href=""><i class="fa fa-file-pdf-o"></i></a> : link to associated pdf file (in the R journal for instance).
+
+<!-- Find package [here](http://rpackages.ianhowson.com) A comprehensive index of R packages and documentation from CRAN, Bioconductor, GitHub and R-Forge. (https://cran.r-project.org/web/packages/available_packages_by_name.html) -->
+Many packages for graphics are indexed in a dedicated [task view maintained by Nicholas Lewin-Koh](https://cran.r-project.org/web/views/Graphics.html). We have indexed many of them and refer to more below. For each package, we provide :
+
+  - the name of the package with a link that goes to the [CRAN](https://cran.r-project.org) repository where the manual and optional vignettes can be found,
+  - a text summarizing the package content (an adequate part of the description found online),
+
+when available, we also provide :
+
+  - <a href=""><i class="fa fa-github"></i></a> : the link to the associated [Github](https://github.com) repository,
+  - <a href=""><i class="fa fa-bitbucket"></i></a> : the link to the associated [Bitbucket](https://bitbucket.org) repository,
+  - <a href=""><i class="fa fa-globe"></i></a> : the link to the dedicated website or a html vignette that present well the package,
+  - <a href=""><i class="fa fa-link"></i></a> : a link to a relevant publication,
+  - <a href=""><i class="fa fa-file-pdf-o"></i></a> : link to an relevant pdf file (a R journal article for instance).
 
 
 {% assign pkg_by_cat = site.data.Rpkgs | group_by:"category" | sort:"name" %}
@@ -103,61 +106,6 @@ For each package, when available, we provide :
 {% endfor %}
 
 
-<br/>
-
-
-
-
-
-
-
-
-- **Main Packages**
-
-| Package name | Short description |
-|:-------------|:------------------|
-| [graphics](https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/00Index.html) | Base (and S-like) graphics  |
-| [grid](https://stat.ethz.ch/R-manual/R-devel/library/grid/html/00Index.html) | A flexible package that supplements 'graphics' |
-| [gridBase](https://cran.r-project.org/web/packages/gridBase/) | Integrating Grid Graphics Output with Base Graphics Output (see also [this article](https://cran.r-project.org/web/packages/gridBase/vignettes/gridBase.pdf)) |
-| [gridGraphics](https://cran.r-project.org/web/packages/gridGraphics/) | Functions to convert a page of plots drawn with the graphics package into an identical output drawn with the grid package (see also [this article](https://journal.r-project.org/archive/2015-1/murrell.pdf))
-| [grDevices](https://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/00Index.html) | Graphics Devices and Support for Colours and Fonts |
-| [lattice](https://cran.r-project.org/web/packages/lattice) | R implementation of Trellis Graphics |
-| [plotrix](https://cran.r-project.org/web/packages/plotrix) | Various plotting function
-| [gridGraphics](https://cran.r-project.org/web/packages/gridGraphics/) | Functions to convert a page of plots drawn with the graphics package into an identical output drawn with the grid package (see also [this article](https://journal.r-project.org/archive/2015-1/murrell.pdf))
-
-<br/>
-
-
-- **Import and Export images/shapefiles in different format**
-
-| [bmp](https://cran.r-project.org/web/packages/bmp/index.html) | Reads Windows BMP format images |
-| [grDevices](https://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/00Index.html) | Graphics Devices and Support for Colours and Fonts |
-| [jpeg](https://cran.r-project.org/web/packages/jpeg/index.html) | Reads JPEG bitmap images stored in the JPEG format |
-| [pixmap](https://cran.r-project.org/web/packages/pixmap/index.html) | Functions for import, export, plotting and other manipulations of bitmapped images |
-| [png](https://cran.r-project.org/web/packages/png/index.html) | Reads bitmap images stored in the PNG format |
-
-
-<br/>
-
-
-<br/>
-
-- **Maps**
-
-| [cartography](https://cran.r-project.org/web/packages/cartography/index.html) | Create and integrate maps in your R workflow |
-| [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html) | Create Interactive Web Maps with the JavaScript 'Leaflet' library |
-| [OpenStreetMap](https://cran.r-project.org/web/packages/OpenStreetMap/index.html) | Accesses high resolution raster maps using the OpenStreetMap protocol|
-| [maps](https://cran.r-project.org/web/packages/maps/index.html) | Draw Geographical Maps |
-| [maptools](https://cran.r-project.org/web/packages/png/index.html) | Set of tools for manipulating and reading geographic data, in particular ESRI shapefiles |
-| [raster](https://cran.r-project.org/web/packages/raster/index.html)| Reading, writing, manipulating, analyzing and modeling of gridded spatial data |
-| [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html)| Reads shapefiles and raset using Frank Warmerdam's Geospatial Data Abstraction Library |
-
-<br/>
-
-
-- **Other plotting functions/packages**
-
-| [ape](https://cran.r-project.org/web/packages/ape/index.html) | Analyses of Phylogenetics and Evolution, see `plot.phylo()` and `plot.multiPhylo()` |
 
 
 

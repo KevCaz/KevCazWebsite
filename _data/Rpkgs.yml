@@ -1,278 +1,512 @@
+################################################
+################################################
+## Main packages
 
+- namepkg: plotrix
+  text: "lots of plots, various labeling, axis and color scaling functions."
+  category: 1. Main packages
+  website: https://r-forge.r-project.org/projects/plotrix
+  pdf: https://www.r-project.org/doc/Rnews/Rnews_2006-4.pdf
+
+- namepkg: gplots
+  text: "various R Programming Tools for Plotting Data."
+  category: 1. Main packages
+
+- namepkg: lattice
+  text: "R implementation of Trellis Graphics."
+  website: http://r-forge.r-project.org/projects/lattice/
+  category: 1. Main packages
+
+- namepkg: ggplot2
+  text: "an implementation of the grammar of graphics in R (see below for extensions)."
+  github: hadley/ggplot2
+  website: http://ggplot2.org
+  category: 1. Main packages
+
+
+
+################################################
+################################################
 ## Colors
 
 - namepkg: colorspace
-  text: "Color Space Manipulation"
+  text: "a package for color space manipulation."
   CRAN: https://cran.r-project.org/web/packages/colorspace/index.html
-  category: Colors
-  order: 2
+  category: 2. Colors
 
 - namepkg: dichromat
-  text: "Collapse red-green or green-blue distinctions to simulate the effects of different types of color-blindness."
+  text: "collapses red-green or green-blue distinctions to simulate the effects of different types of color-blindness."
   CRAN: https://cran.r-project.org/web/packages/dichromat/index.html
-  category: Colors
-  order: 2
+  category: 2. Colors
 
 - namepkg: RColorBrewer
-  text: "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer."
+  text: "provides color schemes for maps (and other graphics) designed by Cynthia Brewer."
   CRAN: https://cran.r-project.org/web/packages/RColorBrewer/index.html
-  category: Colors
-  order: 2
+  category: 2. Colors
 
 - namepkg: wesanderson
-  text: "Provides color schemes for maps (and other graphics) designed by Cynthia Brewer."
+  text: "palettes generated mostly from Wes Anderson movies."
   CRAN: https://cran.r-project.org/web/packages/RColorBrewer/index.html
   github: karthik/wesanderson
-  category: Colors
-  order: 2
+  category: 2. Colors
 
 
-## Fonts / Emoji
+
+################################################
+################################################
+## Fonts / Emojis
 
 - namepkg: extrafont
-  text: "Tools to using fonts other than the standard PostScript fonts"
+  text: "tools to using fonts other than the standard PostScript fonts."
   github: https://github.com/wch/extrafont
-  category: Fonts
-  order: 4
+  category: 3. Fonts
 
 - namepkg: showtext
-  text: "Using Fonts More Easily in R Graphs"
+  text: "eases the use of fonts in R graphs."
   github: yixuan/showtext
   pdf: https://journal.r-project.org/archive/2015-1/qiu.pdf
-  category: Fonts
-  order: 4
+  category: 3. Fonts
 
 - namepkg: emojifont
-  text: "An implementation of using emoji font in both base and 'ggplot2' graphics."
+  text: "an implementation of using emoji font in both base and 'ggplot2' graphics."
   github: GuangchuangYu/emojifont
-  category: Fonts
-  order: 4
+  website: https://cran.r-project.org/web/packages/emojifont/vignettes/emojifont.html
+  category: 3. Fonts
 
 
+
+################################################
+################################################
+## 4. Extra plot functions
+
+- namepkg: ade4
+  text: "multivariate data analysis of ecological data and graphical display associated."
+  github: /sdray/ade4
+  website: http://pbil.univ-lyon1.fr/ADE-4/
+  category: 4. Extra plot functions
+
+- namepkg: aplpack
+  text: "a set of functions for drawing some special plots"
+  category: 4. Extra plot functions
+
+- namepkg: corrgram
+  text: "calculates correlation of variables and displays the results graphically."
+  github: kwstat/corrgram
+  website: https://cran.r-project.org/web/packages/corrgram/vignettes/corrgram_examples.pdf
+  category: 4. Extra plot functions
+
+- namepkg: genoPlotR
+  text: "plot publication-grade gene and genome maps."
+  website: http://genoplotr.r-forge.r-project.org
+  category: 4. Extra plot functions
+
+- namepkg: heatmap3
+  text: "provides improved heatmaps."
+  website: https://cran.r-project.org/web/packages/heatmap3/vignettes/vignette.pdf
+  category: 4. Extra plot functions
+
+- namepkg: hexbin
+  text: "binning and plotting functions for hexagonal bins."
+  github: edzer/hexbin
+  pdf: https://cran.r-project.org/web/packages/hexbin/vignettes/hexagon_binning.pdf
+  category: 4. Extra plot functions
+
+- namepkg: Violin plot
+  text: "creates Violin plots."
+  category: 4. Extra plot functions
+
+- namepkg: beanplot
+  text: "visualization via Beanplots."
+  category: 4. Extra plot functions
+
+- namepkg: denstrip
+  text: "density strips and other methods for compactly illustrating distributions."
+  category: 4. Extra plot functions
+
+- namepkg: vcd
+  text: "visualization techniques, data sets, summary and inference procedures aimed particularly at categorical data."
+  doi: 10.18637/jss.v017.i03
+  category: 4. Extra plot functions
+
+
+
+
+################################################
+################################################
+## Clusters and Trees
+
+- namepkg: ape
+  text: "analyses of Phylogenetics and Evolution, to draw a tree see `plot.phylo()` and `plot.multiPhylo()` functions."
+  category: 5. Clusters and Trees
+
+- namepkg: gclust
+  text: "orders panels in scatterplot matrices and parallel coordinate displays by some merit index."
+  category: 5. Clusters and Trees
+
+- namepkg: biclust
+  text: "algorithms to find biclusters in two-dimensional data, visualisation solutions are included."
+  category: 5. Clusters and Trees
+
+- namepkg: VisuClust
+  text: "visualisation of Clusters in Multivariate Data."
+  category: 5. Clusters and Trees
+
+
+
+
+
+################################################
+################################################
 ## Plot3D
 
 - namepkg: plot3D
-  text: "Functions for viewing 2-D and 3-D data, including perspective plots, slice plots, surface plots, scatter plots, etc."
-  category: 3D plots
-  order: 5
+  text: "functions for viewing 2-D and 3-D data, including perspective plots, slice plots, surface plots, scatter plots, etc."
+  category: 6. 3D plots
 
 - namepkg: misc3d
-  text: "A collection of miscellaneous 3d plots, including isosurfaces."
-  category: 3D plots
-  order: 5
+  text: "a collection of miscellaneous 3d plots, including isosurfaces."
+  category: 6. 3D plots
+
+- namepkg: rgl
+  text: "implements 3D visualization using OpenGL."
+  website: https://cran.r-project.org/web/packages/rgl/vignettes/rgl.html
+  category: 6. 3D plots
 
 - namepkg: scatterplot3d
-  text: "Plots a three dimensional (3D) point cloud."
-  category: 3D plots
-  order: 5
+  text: "plots a three dimensional (3D) point cloud."
+  category: 6. 3D plots
 
 
-
+################################################
+################################################
 ## Diagrams
 
 - namepkg: DiagrammeR
-  text: "Create network graph diagrams."
+  text: "creates network graph diagrams."
   github: rich-iannone/DiagrammeR
   website: http://rich-iannone.github.io/DiagrammeR/
-  category: Graph diagrams / Flowcharts / Networks
-  order: 3
+  category: 7. Graph diagrams / Flowcharts / Networks
+
+- namepkg: visNetwork
+  text: "network visualization, using 'vis.js' javascript library."
+  github: atastorm-open/visNetwork
+  website: https://cran.r-project.org/web/packages/visNetwork/vignettes/Introduction-to-visNetwork.html
+  category: 7. Graph diagrams / Flowcharts / Networks
 
 - namepkg: shape
-  text: "Functions for plotting graphical shapes, colors."
-  category: Graph diagrams / Flowcharts / Networks
-  order: 3
+  text: "functions for plotting graphical shapes, colors."
+  category: 7. Graph diagrams / Flowcharts / Networks
 
 - namepkg: diagram
-  text: "Visualising simple graphs, flowcharts, and webs."
-  category: Graph diagrams / Flowcharts / Networks
-  order: 3
+  text: "visualising simple graphs, flowcharts, and webs."
+  category: 7. Graph diagrams / Flowcharts / Networks
 
 - namepkg: igraph
-  text: "Network Analysis and Visualization."
+  text: "network analysis and visualization."
   wesbsite: http://igraph.org/r/
-  category: Graph diagrams / Flowcharts / Networks
-  order: 3
+  category: 7. Graph diagrams / Flowcharts / Networks
 
 - namepkg: VennDiagram
-  text : "A set of functions to generate high-resolution Venn and Euler plots."
-  category: Graph diagrams / Flowcharts / Networks
-  order: 3
+  text : "a set of functions to generate high-resolution Venn and Euler plots."
+  category: 7. Graph diagrams / Flowcharts / Networks
+
+
+################################################
+################################################
+## Maps
+
+- namepkg: cartography
+  text: "create and integrate maps in your R workflow."
+  github: Groupe-ElementR/cartography
+  category: 8. Maps
+
+- namepkg: leafletR
+  text: "creates interactive web-maps based on the Leaflet JavaScript library."
+  github: chgrl/leafletR
+  category: 8. Maps
+
+- namepkg: leaflet
+  text: "creates interactive web maps with the JavaScript 'Leaflet' library"
+  website: http://rstudio.github.io/leaflet/
+  github: rstudio/leaflet
+  category: 8. Maps
+
+- namepkg: osmar
+  text: "a package to use Open Street Map in R."
+  website: hhttp://osmar.r-forge.r-project.org
+  pdf: https://journal.r-project.org/archive/2013-1/eugster-schlesinger.pdf
+  category: 8. Maps
+
+- namepkg: plotGoogleMaps
+  text: "accesses high resolution raster maps using the OpenStreetMap protocol."
+  website: http://r-forge.r-project.org/projects/plotgooglemaps/
+  category: 8. Maps
+
+- namepkg: maps
+  text: "draws geographical maps."
+  website: http://r-forge.r-project.org/projects/maptools/
+  category: 8. Maps
+
+- namepkg: maptools
+  text: "a set of tools for manipulating and reading geographic data, in particular ESRI shapefiles."
+  website: http://r-forge.r-project.org/projects/maptools/
+  category: 8. Maps
+
+- namepkg: micromap
+  text: "a package for linked micromaps."
+  doi: 10.18637/jss.v063.i02
+  category: 8. Maps
+
+
+- namepkg: raster
+  text: "reading, writing, manipulating, analyzing and modeling of gridded spatial data."
+  pdf: https://cran.r-project.org/web/packages/raster/vignettes/Raster.pdf
+  category: 8. Maps
+
+- namepkg: rgdal
+  text: "reads shapefiles and raset using Frank Warmerdam's Geospatial Data Abstraction Library."
+  website: https://r-forge.r-project.org/projects/rgdal/
+  category: 8. Maps
+
+
+################################################
+################################################
+## Interactive plots
+
+- namepkg: GGEBiplotGUI
+  text: "interactive GGE Biplots in R"
+  category: 9. Interactive plots
+
+- namepkg: iplot
+  text: "interactive graphics for R."
+  website: http://www.iPlots.org/
+  category: 9. Interactive plots
+
+- namepkg: manipulate
+  text: "interactive plotting functions for use within RStudio."
+  github: rstudio/manipulate
+  website: https://support.rstudio.com/hc/en-us/articles/200551906-Interactive-Plotting-with-Manipulate
+  category: 9. Interactive plots
+
+- namepkg: playwith
+  text: "a GUI for interactive plots using GTK+"
+  website: http://playwith.googlecode.com/
+  category: 9. Interactive plots
+
+- namepkg: rpanel
+  text: "simple interactive controls for R using the tcltk library."
+  website: hhttp://www.stats.gla.ac.uk/~adrian/rpanel/
+  doi: 10.18637/jss.v017.i09
+  pdf: https://cran.r-project.org/doc/Rnews/Rnews_2006-4.pdf
+  category: 9. Interactive plots
 
 
 
+
+
+################################################
+################################################
+## Importing Image
+
+- namepkg: bmp
+  text: "reads Windows BMP format images"
+  category: A. Importing images
+
+- namepkg: grImport
+  text: "a set of functions for converting, importing, and drawing PostScript pictures in R plots."
+  doi: 10.18637/jss.v030.i04
+  pdf: https://cran.r-project.org/web/packages/grImport/vignettes/import.pdf
+  category: A. Importing images
+
+- namepkg: jpeg
+  text: "reads bitmap images stored in the JPEG format."
+  website: http://www.rforge.net/jpeg/
+  category: A. Importing images
+
+- namepkg: pixmap
+  text: "functions for import, export, plotting and other manipulations of bitmapped images."
+  category: A. Importing images
+
+- namepkg: png
+  text: "Reads bitmap images stored in the PNG format."
+  website: http://www.rforge.net/png/
+  category: A. Importing images
+
+
+
+
+################################################
+################################################
 ## Miscellaneous
 
-- namepkg: vcd
-  text: "Visualization techniques, data sets, summary and inference procedures aimed particularly at categorical data."
-  doi: 10.18637/jss.v017.i03
-  category: Categorical data
-  order: 6
-
 - namepkg: tourr
-  text: "Implement Tour Methods in R Code."
+  text: "implements Tour methods in R code."
   github: ggobi/tourr/
   doi: 10.18637/jss.v040.i02
-  category: Miscellaneous
-  order: 6
+  category: B. Miscellaneous
+
+- namepkg: arulesViz
+  text: "visualizing association rules and frequent itemsets."
+  doi: 10.18637/jss.v014.i15
+  github: mhahsler/arules
+  pdf: https://cran.r-project.org/web/packages/arulesViz/vignettes/arulesViz.pdf
+  category: B. Miscellaneous
+
+- namepkg: animation
+  text: "a gallery of animations in statistics and utilities to create animations."
+  github: Yihui/animation
+  category: B. Miscellaneous
+
+- namepkg: move
+  text: "visualizing and analyzing animal track data."
+  website: http://computational-ecology.com/main-move.html
+  category: B. Miscellaneous
 
 
 
-## ggplot2 and family
+
+
+
+
+################################################
+################################################
+## ggplot2 and extensions
+
 - namepkg: ggplot2
-  text: "An implementation of the grammar of graphics in R."
+  text: "an implementation of the grammar of graphics in R."
   github: hadley/ggplot2
   website: http://ggplot2.org
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggthemes
-  text: "Some extra themes, geoms, and scales for 'ggplot2'"
+  text: "some extra themes, geoms, and scales for 'ggplot2'"
   github: /jrnold/ggthemes
   website: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
+
+- namepkg: GGally
+  text: "extension to ggplot2."
+  website: http://ggobi.github.io/ggally/
+  category: C. ggplot2 and extensions
+
 
 - namepkg: ggbeeswarm
-  text: "Beeswarm-style plots with ggplot2."
+  text: "beeswarm-style plots with ggplot2."
   github: eclarke/ggbeeswarm
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggcorrplot
-  text: "Visualization of a correlation matrix using ggplot2"
+  text: "visualization of a correlation matrix using ggplot2"
   github: kassambara/ggcorrplot
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggdendro
-  text: "Set of tools for dendrograms and tree plots using 'ggplot2'."
+  text: "a set of tools for dendrograms and tree plots using 'ggplot2'."
   github: andrie/ggdendro
   website: https://cran.r-project.org/web/packages/ggdendro/vignettes/ggdendro.html
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: gge
-  text: "Create biplots for GGE (genotype plus genotype-by-environment) and GGB (genotype plus genotype-by-block-of-environments) models."
-  category: ggplot2 and family
-  order: 4
+  text: "creates biplots for GGE (genotype plus genotype-by-environment) and GGB (genotype plus genotype-by-block-of-environments) models."
+  category: C. ggplot2 and extensions
 
 - namepkg: ggenealogy
-  text: "Visualization Tools for Genealogical Data."
-  category: ggplot2 and family
-  order: 4
+  text: "visualization tools for genealogical data."
+  category: C. ggplot2 and extensions
 
 - namepkg: ggExtra
-  text: "Add marginal histograms to ggplot2, and more ggplot2 enhancements."
+  text: "adds marginal histograms to ggplot2, and more ggplot2 enhancements."
   github: /daattali/ggExtra
-  category: ggplot2 and family
+  category: C. ggplot2 and extensions
   website: https://cran.r-project.org/web/packages/ggExtra/vignettes/overview.html
-  order: 4
 
 - namepkg: ggiraph
-  text: "Create interactive 'ggplot2' graphics that are usable in the 'RStudio' viewer pane, in 'R Markdown' documents and in 'Shiny' apps."
+  text: "creates interactive 'ggplot2' graphics that are usable in the 'RStudio' viewer pane, in 'R Markdown' documents and in 'Shiny' apps."
   github: davidgohel/ggiraph
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 
 - namepkg: ggmap
-  text: "A collection of functions to visualize spatial data and models on top of static maps from various online sources."
-  category: ggplot2 and family
+  text: "a collection of functions to visualize spatial data and models on top of static maps from various online sources."
+  category: C. ggplot2 and extensions
   github: dkahle/ggmap
-  order: 4
 
 
 - namepkg: ggnetwork
-  text: "Geometries to plot network objects with 'ggplot2'."
+  text: "geometries to plot network objects with 'ggplot2'."
   github: briatte/ggnetwork
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
   website: https://cran.r-project.org/web/packages/ggnetwork/vignettes/ggnetwork.html
 
 - namepkg: ggparallel
-  text: "Create hammock plots, parallel sets, and common angle plots with ggplot2."
-  category: ggplot2 and family
+  text: "creates hammock plots, parallel sets, and common angle plots with ggplot2."
+  category: C. ggplot2 and extensions
   github: heike/ggparallel
-  order: 4
 
 
 - namepkg: ggpmisc
-  text: "Extensions to 'ggplot2' respecting the grammar of graphics paradigm."
+  text: "xxtensions to 'ggplot2' respecting the grammar of graphics paradigm."
   bitbuck: aphalo/ggpmisc
-  category: ggplot2 and family
+  category: C. ggplot2 and extensions
   website: https://cran.r-project.org/web/packages/ggpmisc/vignettes/examples.html
-  order: 4
 
 - namepkg: ggRandomForests
-  text: "Graphic elements for exploring Random Forests."
+  text: "graphic elements for exploring Random Forests."
   github: ehrlinger/ggRandomForests
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggraptR
-  text: "Allows Interactive Visualization of Data Through a Web Browser GUI."
-  category: ggplot2 and family
+  text: "allows Interactive Visualization of Data Through a Web Browser GUI."
+  category: C. ggplot2 and extensions
   github: cargomoose/raptR
-  order: 4
 
 - namepkg: ggrepel
-  text: "Provides text and label geoms for 'ggplot2' that help to avoid overlapping text labels."
+  text: "provides text and label geoms for 'ggplot2' that help to avoid overlapping text labels."
   github: slowkow/ggrepel
   website: https://cran.r-project.org/web/packages/ggrepel/vignettes/ggrepel.html
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggROC
-  text: "Package for roc curve plot with ggplot2."
-  category: ggplot2 and family
-  order: 4
+  text: "a package for roc curve plot with ggplot2."
+  category: C. ggplot2 and extensions
 
 - namepkg: ggsci
-  text: "Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2."
+  text: "scientific journal and Sci-Fi themed volor palettes for 'ggplot2'."
   github: road2stat/ggsci
   website: http://ggsci.net
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggseas
-  text: "Seasonal adjustment on the fly extension for ggplot2."
+  text: "seasonal adjustment on the fly extension for ggplot2."
   github: ellisp/ggseas
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggsn
-  text: "Adds north symbols and scale bars to maps created with 'ggplot2' or 'ggmap'."
+  text: "adds north symbols and scale bars to maps created with 'ggplot2' or 'ggmap'."
   github: oswaldosantos/ggsn
   website: http://oswaldosantos.github.io/ggsn/
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggspectra
-  text: "Extensions to 'ggplot2' for Radiation Spectra"
+  text: "extensions to 'ggplot2' for Radiation Spectra"
   bitbuck: /aphalo/ggspectra
   website: https://cran.r-project.org/web/packages/ggspectra/index.html
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 
 - namepkg: ggtern
-  text: "An Extension to 'ggplot2', for the Creation of Ternary Diagrams"
+  text: "an Extension to 'ggplot2', for the creation of ternary diagrams."
   github: nicholasehamilton/ggtern
   website: http://www.ggtern.com
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
 
 - namepkg: ggThemeAssist
   text: "Rstudio add-in that delivers a graphical interface for editing 'ggplot2' theme elements."
   github: calligross/ggthemeassist
-  category: ggplot2 and family
-  order: 4
-
-
+  category: C. ggplot2 and extensions
 
 - namepkg: ggvis
-  text: "An implementation of an interactive grammar of graphics, taking the best parts of 'ggplot2', combining them with the reactive framework from 'shiny' and web graphics from 'vega'."
+  text: "an implementation of an interactive grammar of graphics."
   github: rstudio/ggvis
   website: http://ggvis.rstudio.com
-  category: ggplot2 and family
-  order: 4
+  category: C. ggplot2 and extensions
