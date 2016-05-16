@@ -13,4 +13,7 @@ In addition of sharing this blog post on my own blog, I would like to confess tw
 
 <br/>
 
-#### See ya next post!
+
+**See ya next post!**
+
+<br/>

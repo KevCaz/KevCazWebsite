@@ -151,7 +151,6 @@ locator(10, col=4)
 Note that if you do not know how many points you need to plot, do not specify any number (default is n=512) and click right when you want to stop the process. Locator allows you to imagine very interesting interaction with graphics. For instance, let's consider a system of 2 ordinary differential equations and I draw the vector field associated (see `kVectfield2d()` in [graphicsutils package]((https://github.com/KevCaz/graphicsutils)) function). Then on the click, locator returns initial conditions I use for the integration (see `rk4()` in package [deSolve](https://cran.r-project.org/web/packages/deSolve/index.html) function) then I add the trajectory on the plot.
 
 
-I hope this could help!
+**I hope this could help!**
 
-
-### &nbsp; &nbsp; KeV &nbsp; &nbsp; ###
+<br/>

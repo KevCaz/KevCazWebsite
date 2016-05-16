@@ -79,6 +79,7 @@ Also, to chose the version number of you R package, I recommend you to follow th
 
 <br/>
 
-#### That's all folks!
+
+**That's all folks!**
 
 <br/>

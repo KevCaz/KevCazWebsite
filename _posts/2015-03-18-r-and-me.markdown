@@ -96,9 +96,9 @@ Finally, if you want to undertake a calculation which consumes a lot of time, yo
 
 -[R in the landscape of data analysis software](http://r4stats.com/articles/popularity/)
 
-
 <br/>
 
-#### @++
+
+**@++**
 
 <br/>

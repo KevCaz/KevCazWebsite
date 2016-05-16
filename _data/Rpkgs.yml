@@ -95,6 +95,12 @@
   website: https://cran.r-project.org/web/packages/corrgram/vignettes/corrgram_examples.pdf
   category: 4. Extra plot functions
 
+- namepkg: corrplot
+  text: "graphical display of a correlation matrix, confidence interval."
+  github: /taiyun/corrplot
+  website: https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
+  category: 4. Extra plot functions
+
 - namepkg: genoPlotR
   text: "plot publication-grade gene and genome maps."
   website: http://genoplotr.r-forge.r-project.org
@@ -264,7 +270,7 @@
   category: 8. Maps
 
 - namepkg: rgdal
-  text: "reads shapefiles and raset using Frank Warmerdam's Geospatial Data Abstraction Library."
+  text: "reads shapefiles and rasters using Frank Warmerdam's Geospatial Data Abstraction Library."
   website: https://r-forge.r-project.org/projects/rgdal/
   category: 8. Maps
 
@@ -272,10 +278,6 @@
 ################################################
 ################################################
 ## Interactive plots
-
-- namepkg: GGEBiplotGUI
-  text: "interactive GGE Biplots in R"
-  category: 9. Interactive plots
 
 - namepkg: iplot
   text: "interactive graphics for R."
@@ -300,6 +302,11 @@
   pdf: https://cran.r-project.org/doc/Rnews/Rnews_2006-4.pdf
   category: 9. Interactive plots
 
+- namepkg: shiny
+  text: "web application framework for R."
+  website: http://shiny.rstudio.com
+  github: rstudio/shiny
+  category: 9. Interactive plots
 
 
 
@@ -408,6 +415,10 @@
 
 - namepkg: gge
   text: "creates biplots for GGE (genotype plus genotype-by-environment) and GGB (genotype plus genotype-by-block-of-environments) models."
+  category: C. ggplot2 and extensions
+
+- namepkg: GGEBiplotGUI
+  text: "interactive GGE Biplots in R"
   category: C. ggplot2 and extensions
 
 - namepkg: ggenealogy

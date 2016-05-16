@@ -80,9 +80,9 @@ when available, we also provide :
 
   - <a href=""><i class="fa fa-github"></i></a> : the link to the associated [Github](https://github.com) repository,
   - <a href=""><i class="fa fa-bitbucket"></i></a> : the link to the associated [Bitbucket](https://bitbucket.org) repository,
-  - <a href=""><i class="fa fa-globe"></i></a> : the link to the dedicated website or a html vignette that present well the package,
+  - <a href=""><i class="fa fa-globe"></i></a> : the link to the dedicated website or a html vignette that describes well the package,
   - <a href=""><i class="fa fa-link"></i></a> : a link to a relevant publication,
-  - <a href=""><i class="fa fa-file-pdf-o"></i></a> : link to an relevant pdf file (a R journal article for instance).
+  - <a href=""><i class="fa fa-file-pdf-o"></i></a> : link to an relevant pdf file (an R journal article for instance).
 
 
 {% assign pkg_by_cat = site.data.Rpkgs | group_by:"category" | sort:"name" %}

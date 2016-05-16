@@ -15,10 +15,4 @@ categories: Rgraphics
 This blog post is complementary to the previous one. It intends to gather a list of chart and to provide a way to do it using R.
 
 
-
-
-
-
-
-
 <br/>
