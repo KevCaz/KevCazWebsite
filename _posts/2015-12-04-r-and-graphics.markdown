@@ -87,7 +87,6 @@ when available, we also provide :
 
 {% assign pkg_by_cat = site.data.Rpkgs | group_by:"category" | sort:"name" %}
 
-
 {% for pkg_cat in pkg_by_cat %}
   <br/>
   <h3 id="{{pkg_cat.name}}"> {{pkg_cat.name}} </h3>

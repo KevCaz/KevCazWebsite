@@ -211,6 +211,7 @@ p {
 
 #toc {
   padding: $spacing-unit / 4;
+  background: $background-color;
   // border: 2px solid $grey-color-light;
   padding-top: 40px;
   width: -webkit-calc(53% - (#{$content-width} / 2));

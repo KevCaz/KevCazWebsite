@@ -134,6 +134,16 @@
   doi: 10.18637/jss.v017.i03
   category: 4. Extra plot functions
 
+- namepkg: sinaplot
+  text: "enhanced chart for simple and truthful representation of single observations over multiple classes."
+  website: https://cran.r-project.org/web/packages/sinaplot/vignettes/SinaPlot.html
+  category: 4. Extra plot functions
+
+- namepkg: visreg
+  text: "visualization of regression models."
+  github: pbreheny/visreg
+  pdf: http://myweb.uiowa.edu/pbreheny/publications/visreg.pdf
+  category: 4. Extra plot functions
 
 
 
@@ -282,31 +292,37 @@
 - namepkg: iplot
   text: "interactive graphics for R."
   website: http://www.iPlots.org/
-  category: 9. Interactive plots
+  category: 9. Interactive plots / Web-based plots
 
 - namepkg: manipulate
   text: "interactive plotting functions for use within RStudio."
   github: rstudio/manipulate
   website: https://support.rstudio.com/hc/en-us/articles/200551906-Interactive-Plotting-with-Manipulate
-  category: 9. Interactive plots
+  category: 9. Interactive plots / Web-based plots
 
 - namepkg: playwith
   text: "a GUI for interactive plots using GTK+"
   website: http://playwith.googlecode.com/
-  category: 9. Interactive plots
+  category: 9. Interactive plots / Web-based plots
 
 - namepkg: rpanel
   text: "simple interactive controls for R using the tcltk library."
   website: hhttp://www.stats.gla.ac.uk/~adrian/rpanel/
   doi: 10.18637/jss.v017.i09
   pdf: https://cran.r-project.org/doc/Rnews/Rnews_2006-4.pdf
-  category: 9. Interactive plots
+  category: 9. Interactive plots / Web-based plots
 
 - namepkg: shiny
   text: "web application framework for R."
   website: http://shiny.rstudio.com
   github: rstudio/shiny
-  category: 9. Interactive plots
+  category: 9. Interactive plots / Web-based plots
+
+- namepkg: rbokeh
+  text: "R interface for Bokeh which renders plots using HTML canvas and provides many mechanisms for interactivity."
+  website: http://hafen.github.io/rbokeh/
+  github: bokeh/rbokeh
+  category: 9. Interactive plots / Web-based plots
 
 
 
@@ -369,6 +385,9 @@
   website: http://computational-ecology.com/main-move.html
   category: B. Miscellaneous
 
+- package: wordcloud
+  text: creates word cLouds.
+  category: B. Miscellaneous
 
 
 
@@ -456,7 +475,7 @@
 
 
 - namepkg: ggpmisc
-  text: "xxtensions to 'ggplot2' respecting the grammar of graphics paradigm."
+  text: "extensions to 'ggplot2' respecting the grammar of graphics paradigm."
   bitbuck: aphalo/ggpmisc
   category: C. ggplot2 and extensions
   website: https://cran.r-project.org/web/packages/ggpmisc/vignettes/examples.html
