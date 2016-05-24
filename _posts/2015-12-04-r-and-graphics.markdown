@@ -6,7 +6,7 @@ date: 2015-12-04
 categories: Rgraphics
 ---
 
-*'Evolving post' written in collaboration with [Nicolas Casajus](http://nicolascasajus.fr) and [Marie-Hélène Greffard](http://www.er.uqam.ca/nobel/r3424621/labo/fr/site/Marie-Helene.html).*
+*'Evolving post' written in collaboration with [Nicolas Casajus](ahasverus.github.io), [Steve Vissault](http://steveviss.github.io) and [Marie-Hélène Greffard](http://www.er.uqam.ca/nobel/r3424621/labo/fr/site/Marie-Helene.html).*
 <br/>
 *Last edit: May 14, 2016*
 
@@ -115,9 +115,9 @@ when available, we also provide :
 
 [^note1]: R has strongly inherited from S and Scheme, see [Genesis](https://cran.r-project.org/doc/html/interface98-paper/paper_1.html).
 
-[^note2]: The last version is 3.2.2, [29 base and recommended packages](https://stat.ethz.ch/R-manual/R-devel/doc/html/packages.html) are installed by default.
+[^note2]: The last version is 3.2.3, [29 base and recommended packages](https://stat.ethz.ch/R-manual/R-devel/doc/html/packages.html) are installed by default.
 
-
+<!-- / -->
 
 
 
