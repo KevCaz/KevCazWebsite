@@ -31,18 +31,32 @@
 
 - namepkg: colorspace
   text: "a package for color space manipulation."
-  CRAN: https://cran.r-project.org/web/packages/colorspace/index.html
   category: 2. Colors
 
 - namepkg: dichromat
   text: "collapses red-green or green-blue distinctions to simulate the effects of different types of color-blindness."
-  CRAN: https://cran.r-project.org/web/packages/dichromat/index.html
   category: 2. Colors
+
+- namepkg: munsell
+  text: "provides easy access to, and manipulation of, the Munsell colours."
+  category: 2. Colors
+
 
 - namepkg: RColorBrewer
   text: "provides color schemes for maps (and other graphics) designed by Cynthia Brewer."
-  CRAN: https://cran.r-project.org/web/packages/RColorBrewer/index.html
   category: 2. Colors
+
+- namepkg: scales
+  github: hadley/scales
+  text: "scale functions for visualization."
+  category: 2. Colors
+
+- namepkg: viridis
+  text: "port of the new 'matplotlib' color maps to 'R'"
+  github: sjmgarnier/viridis
+  website: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
+  category: 2. Colors
+
 
 - namepkg: wesanderson
   text: "palettes generated mostly from Wes Anderson movies."
@@ -85,8 +99,18 @@
   website: http://pbil.univ-lyon1.fr/ADE-4/
   category: 4. Extra plot functions
 
+- namepkg: adegraphics
+  text: "graphical functionalities for the representation of multivariate data (complete re-implementation of the functions available in the 'ade4' package)."
+  github: sdray/adegraphics
+  website: https://cran.r-project.org/web/packages/adegraphics/vignettes/adegraphics.html
+  category: 4. Extra plot functions
+
 - namepkg: aplpack
   text: "a set of functions for drawing some special plots"
+  category: 4. Extra plot functions
+
+- namepkg: beanplot
+  text: "visualization via Beanplots."
   category: 4. Extra plot functions
 
 - namepkg: corrgram
@@ -99,6 +123,10 @@
   text: "graphical display of a correlation matrix, confidence interval."
   github: /taiyun/corrplot
   website: https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
+  category: 4. Extra plot functions
+
+- namepkg: denstrip
+  text: "density strips and other methods for compactly illustrating distributions."
   category: 4. Extra plot functions
 
 - namepkg: genoPlotR
@@ -117,26 +145,22 @@
   pdf: https://cran.r-project.org/web/packages/hexbin/vignettes/hexagon_binning.pdf
   category: 4. Extra plot functions
 
-- namepkg: Violin plot
-  text: "creates Violin plots."
-  category: 4. Extra plot functions
-
-- namepkg: beanplot
-  text: "visualization via Beanplots."
-  category: 4. Extra plot functions
-
-- namepkg: denstrip
-  text: "density strips and other methods for compactly illustrating distributions."
-  category: 4. Extra plot functions
-
-- namepkg: vcd
-  text: "visualization techniques, data sets, summary and inference procedures aimed particularly at categorical data."
-  doi: 10.18637/jss.v017.i03
+- namepkg: riverplot
+  text: "implements Sankey or Ribbon plots."
   category: 4. Extra plot functions
 
 - namepkg: sinaplot
   text: "enhanced chart for simple and truthful representation of single observations over multiple classes."
   website: https://cran.r-project.org/web/packages/sinaplot/vignettes/SinaPlot.html
+  category: 4. Extra plot functions
+
+- namepkg: vcd
+  text: "visualization techniques, data sets, summary and inference procedures aimed particularly at categoricaldata."
+  doi: 10.18637/jss.v017.i03
+  category: 4. Extra plot functions
+
+- namepkg: Violin plot
+  text: "creates Violin plots."
   category: 4. Extra plot functions
 
 - namepkg: visreg
@@ -222,6 +246,11 @@
   wesbsite: http://igraph.org/r/
   category: 7. Graph diagrams / Flowcharts / Networks
 
+- namepkg: qgraph
+  text: "visualizing data as networks as well as provides an interface for visualizing weighted graphical models."
+  website: http://sachaepskamp.com/qgraph
+  category:  7. Graph diagrams / Flowcharts / Networks
+
 - namepkg: VennDiagram
   text : "a set of functions to generate high-resolution Venn and Euler plots."
   category: 7. Graph diagrams / Flowcharts / Networks
@@ -285,44 +314,35 @@
   category: 8. Maps
 
 
+
+
 ################################################
 ################################################
-## Interactive plots
+## Interactive graphics for R
 
 - namepkg: iplot
   text: "interactive graphics for R."
   website: http://www.iPlots.org/
-  category: 9. Interactive plots / Web-based plots
+  category: 9. Interactive graphics for R
 
 - namepkg: manipulate
   text: "interactive plotting functions for use within RStudio."
   github: rstudio/manipulate
   website: https://support.rstudio.com/hc/en-us/articles/200551906-Interactive-Plotting-with-Manipulate
-  category: 9. Interactive plots / Web-based plots
+  category: 9. Interactive graphics for R
 
 - namepkg: playwith
   text: "a GUI for interactive plots using GTK+"
   website: http://playwith.googlecode.com/
-  category: 9. Interactive plots / Web-based plots
+  category: 9. Interactive graphics for R
 
 - namepkg: rpanel
   text: "simple interactive controls for R using the tcltk library."
-  website: hhttp://www.stats.gla.ac.uk/~adrian/rpanel/
+  website: http://www.stats.gla.ac.uk/~adrian/rpanel/
   doi: 10.18637/jss.v017.i09
   pdf: https://cran.r-project.org/doc/Rnews/Rnews_2006-4.pdf
-  category: 9. Interactive plots / Web-based plots
+  category: 9. Interactive graphics for R
 
-- namepkg: shiny
-  text: "web application framework for R."
-  website: http://shiny.rstudio.com
-  github: rstudio/shiny
-  category: 9. Interactive plots / Web-based plots
-
-- namepkg: rbokeh
-  text: "R interface for Bokeh which renders plots using HTML canvas and provides many mechanisms for interactivity."
-  website: http://hafen.github.io/rbokeh/
-  github: bokeh/rbokeh
-  category: 9. Interactive plots / Web-based plots
 
 
 
@@ -356,38 +376,6 @@
   category: A. Importing images
 
 
-
-
-################################################
-################################################
-## Miscellaneous
-
-- namepkg: tourr
-  text: "implements Tour methods in R code."
-  github: ggobi/tourr/
-  doi: 10.18637/jss.v040.i02
-  category: B. Miscellaneous
-
-- namepkg: arulesViz
-  text: "visualizing association rules and frequent itemsets."
-  doi: 10.18637/jss.v014.i15
-  github: mhahsler/arules
-  pdf: https://cran.r-project.org/web/packages/arulesViz/vignettes/arulesViz.pdf
-  category: B. Miscellaneous
-
-- namepkg: animation
-  text: "a gallery of animations in statistics and utilities to create animations."
-  github: Yihui/animation
-  category: B. Miscellaneous
-
-- namepkg: move
-  text: "visualizing and analyzing animal track data."
-  website: http://computational-ecology.com/main-move.html
-  category: B. Miscellaneous
-
-- package: wordcloud
-  text: creates word cLouds.
-  category: B. Miscellaneous
 
 
 
@@ -540,3 +528,129 @@
   github: rstudio/ggvis
   website: http://ggvis.rstudio.com
   category: C. ggplot2 and extensions
+
+
+
+
+
+################################################
+################################################
+## Miscellaneous
+
+- namepkg: arulesViz
+  text: "visualizing association rules and frequent itemsets."
+  doi: 10.18637/jss.v014.i15
+  github: mhahsler/arules
+  pdf: https://cran.r-project.org/web/packages/arulesViz/vignettes/arulesViz.pdf
+  category: B. Miscellaneous
+
+- namepkg: animation
+  text: "a gallery of animations in statistics and utilities to create animations."
+  github: Yihui/animation
+  category: B. Miscellaneous
+
+- namepkg: move
+  text: "visualizing and analyzing animal track data."
+  website: http://computational-ecology.com/main-move.html
+  category: B. Miscellaneous
+
+- namepkg: personographs
+  text: "visualizes treatment effects using person icons, similar to Cates (NNT) charts."
+  github: joelkuiper/personograph
+  category: B. Miscellaneous
+
+- namepkg: RGraphics
+  text: "data and functions from the book 'R Graphics', second edition."
+  website: https://www.stat.auckland.ac.nz/~paul/RG2e/index.html
+  category: B. Miscellaneous
+
+- namepkg: tagcloud
+  text: "generates tag and word clouds."
+  github: ggobi/tourr/
+  category: B. Miscellaneous
+
+- namepkg: tikzDevice
+  text: Provides a graphics output device for R that records plots in a LaTeX-friendly format.
+  github: yihui/tikzDevice
+  category: B. Miscellaneous
+
+- namepkg: tourr
+  text: "implements Tour methods in R code."
+  github: ggobi/tourr/
+  doi: 10.18637/jss.v040.i02
+  category: B. Miscellaneous
+
+- namepkg: wordcloud
+  text: "creates word clouds."
+  category: B. Miscellaneous
+
+
+
+################################################
+################################################
+##  Web-based interactive charts
+
+- namepkg: dygraphs
+  text: "Interface to 'Dygraphs' interactive time series charting library."
+  github: rstudio/dygraphs
+  website: https://rstudio.github.io/dygraphs/
+  category: D. Web-based interactive charts
+
+- namepkg: metricsgraphics
+  text: "Creates interactive charts with the JavaScript 'MetricsGraphics' library."
+  website: http://hrbrmstr.github.io/metricsgraphics/
+  github: hrbrmstr/metricsgraphics
+  category: D. Web-based interactive charts
+
+- namepkg: networkD3
+  text: "creates 'D3' 'JavaScript' network, tree, dendrogram, and Sankey graphs from 'R'."
+  github: /christophergandrud/networkD3
+  category: D. Web-based interactive charts
+
+- namepkg: plotly
+  text: "translates 'ggplot2' graphs to an interactive web-based version
+  and/or creates custom web-based visualizations directly from R."
+  github: /ropensci/plotly
+  website: https://plot.ly/r/
+  category: D. Web-based interactive charts
+
+- namepkg: qtlcharts
+  text: "Web-based interactive charts for the analysis of experimental crosses to identify genetic loci contributing to variation in quantitative traits."
+  website: http://kbroman.org/qtlcharts/
+  github: kbroman/qtlcharts
+  category: D. Web-based interactive charts
+
+- namepkg: radarchart
+  text: "create interactive radar charts using the 'Chart.js' JavaScript library and the 'htmlwidgets' package."
+  github: mangothecat/radarchart
+  category: D. Web-based interactive charts
+
+- namepkg: rCharts (not available on CRAN)
+  text: "creates, customizes and publishes interactive javascript visualizations from R using a familiar lattice style plotting interface."
+  website: http://rcharts.io
+  github: ramnathv/rCharts
+  category: D. Web-based interactive charts
+
+- namepkg: rbokeh
+  text: "R interface for Bokeh which renders plots using HTML canvas and provides many mechanisms for interactivity."
+  website: http://hafen.github.io/rbokeh/
+  github: bokeh/rbokeh
+  category: D. Web-based interactive charts
+
+- namepkg: scatterD3
+  text: "creates 'D3' 'JavaScript' scatterplots from 'R' with interactive features."
+  github: /juba/scatterD3
+  website: https://cran.r-project.org/web/packages/scatterD3/vignettes/introduction.html
+  category: D. Web-based interactive charts
+
+- namepkg: shiny
+  text: "web application framework for R."
+  website: http://shiny.rstudio.com
+  github: rstudio/shiny
+  category: D. Web-based interactive charts
+
+- namepkg: threeJS
+  text: "create interactive 3D scatter plots, network plots, and globes using the 'three.js' visualization library."
+  website: http://bwlewis.github.io/rthreejs
+  github: bwlewis/rthreejs
+  category: D. Web-based interactive charts

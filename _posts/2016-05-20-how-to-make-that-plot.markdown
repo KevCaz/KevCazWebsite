@@ -2,9 +2,10 @@
 layout: post
 title:  How to make that plot?
 author: Kevin Cazelles, Nicolas Casajus, Steve Vissault, Zofia Taranu
-date: 2016-05-23
+date: 2016-05-28
 categories: Rgraphics
 ---
+<!-- ## Y'a un problem  -->
 
 *'Evolving post' written in collaboration with [Nicolas Casajus](http://nicolascasajus.fr), [Steve Vissault](http://steveviss.github.io) and [Zofia Taranu](http://zofiaecaterinataranu.weebly.com)*
 <br/>

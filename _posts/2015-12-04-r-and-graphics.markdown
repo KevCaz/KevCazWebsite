@@ -93,7 +93,7 @@ when available, we also provide :
   <ul>
     {% for pkg in pkg_cat.items %}
       <li>
-        <a href="https://cran.r-project.org/web/packages/{{pkg.namepkg}}/index.html">{{pkg.namepkg}}</a>:   <i>{{pkg.text}}</i>
+        <a href="https://cran.r-project.org/web/packages/{{pkg.namepkg}}/index.html">{{pkg.namepkg}}</a>:   {{pkg.text}}
         {% if pkg.github %} <a href="https://github.com/{{pkg.github}}"><i class="fa fa-github"></i></a> {% endif %}
         {% if pkg.bitbuck %} <a href="https://bitbucket.org/{{pkg.bitbuck}}"><i class="fa fa-bitbucket"></i></a> {% endif %}
         {% if pkg.website %} <a href="{{pkg.website}}"><i class="fa fa-globe"></i></a> {% endif %}

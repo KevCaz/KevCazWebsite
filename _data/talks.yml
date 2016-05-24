@@ -1,3 +1,13 @@
+# - name: Graph R
+#   author: Cazelles K. Casajus N.
+#   conf: Séminaire
+#   year: 2016
+#   place: Université du Québec à Rimouski
+#   city: Mont St Hilaire
+#   country: Canada
+#   html: QCBSgraphR/lecture/index.html
+#   category: international conference
+
 - name: Comment les interactions écologiques affectent-elles la répartition géographique des espèces?
   author: Cazelles K.
   conf: Séminaire
