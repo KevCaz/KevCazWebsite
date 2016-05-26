@@ -6,7 +6,7 @@ date: 2015-12-04
 categories: Rgraphics
 ---
 
-*'Evolving post' written in collaboration with [Nicolas Casajus](ahasverus.github.io), [Steve Vissault](http://steveviss.github.io) and [Marie-Hélène Greffard](http://www.er.uqam.ca/nobel/r3424621/labo/fr/site/Marie-Helene.html).*
+*'Evolving post' written in collaboration with [Nicolas Casajus](http://ahasverus.github.io), [Steve Vissault](http://steveviss.github.io) and [Marie-Hélène Greffard](http://www.er.uqam.ca/nobel/r3424621/labo/fr/site/Marie-Helene.html).*
 <br/>
 *Last edit: May 14, 2016*
 

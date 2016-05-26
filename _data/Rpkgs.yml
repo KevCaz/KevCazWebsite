@@ -113,6 +113,13 @@
   text: "visualization via Beanplots."
   category: 4. Extra plot functions
 
+- namepkg: circlize
+  text: "provides an implementation of circular layout generation in R as well as an enhancement of available software."
+  github: jokergoo/circlize
+  website: http://zuguang.de/circlize/
+  pdf: https://cran.r-project.org/web/packages/circlize/vignettes/circlize.pdf
+  category: 4. Extra plot functions
+
 - namepkg: corrgram
   text: "calculates correlation of variables and displays the results graphically."
   github: kwstat/corrgram
@@ -123,6 +130,12 @@
   text: "graphical display of a correlation matrix, confidence interval."
   github: /taiyun/corrplot
   website: https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
+  category: 4. Extra plot functions
+
+- namepkg: dendextend
+  text: "offers a set of functions for extending dendrogram objects in R, letting you visualize and compare trees of hierarchical clusterings."
+  github: talgalili/dendextend
+  doi: 10.1093/bioinformatics/btv428
   category: 4. Extra plot functions
 
 - namepkg: denstrip
@@ -145,6 +158,10 @@
   pdf: https://cran.r-project.org/web/packages/hexbin/vignettes/hexagon_binning.pdf
   category: 4. Extra plot functions
 
+- namepkg: kohonen
+  text: "Functions to train supervised and self-organising maps (SOMs)."
+  category: 4. Extra plot functions
+
 - namepkg: riverplot
   text: "implements Sankey or Ribbon plots."
   category: 4. Extra plot functions
@@ -152,6 +169,12 @@
 - namepkg: sinaplot
   text: "enhanced chart for simple and truthful representation of single observations over multiple classes."
   website: https://cran.r-project.org/web/packages/sinaplot/vignettes/SinaPlot.html
+  category: 4. Extra plot functions
+
+- namepkg: sjPlot
+  text: "a collection of plotting and table output functions for data visualization dediacted to statistics in social science."
+  github: sjPlot/devel
+  website: http://strengejacke.de/sjPlot/
   category: 4. Extra plot functions
 
 - namepkg: vcd
