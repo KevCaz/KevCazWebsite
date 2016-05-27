@@ -5,8 +5,8 @@ order: 1
 ---
 
 ## Academic Contributions
-
-<br>
+<hr/>
+<br/>
 
 ### *Under review*
 
@@ -82,9 +82,12 @@ order: 1
 
 
 
-<br>
+<br/><br/>
 
 ## Popularization Science
+
+<hr/>
+<br/>
 
 <ul>
 {% for member in site.data.repopu %}
@@ -101,9 +104,12 @@ order: 1
 
 
 
-<br>
+<br/><br/>
 
 ## Reports
+
+<hr/>
+<br/>
 
 <ul>
 {% for member in site.data.repopu %}

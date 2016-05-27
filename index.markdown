@@ -5,6 +5,8 @@ layout: default
 
 
 ## About me
+<hr>
+<br/>
 
 - Kévin Cazelles
 - A PhD candidate who works on theoretical Biogeography at:
@@ -30,9 +32,11 @@ layout: default
 
     - Curriculum Vitae &nbsp;[<i class="fa fa-file-pdf-o  fa-2x"></i>]({{site.baseurl}}/assets/CVKC.pdf) &nbsp;[<i class="fa  fa-download  fa-2x"></i>]({{site.baseurl}}/assets/CVKC.zip)
 
-<br>
+<br/><br/>
 
 ## What am I doing?
+<hr>
+<br/>
 
 <p style='text-align: justify;'>
 Behind the aesthetic value of Earth's biodiversity, there is one exciting challenge: unravelling the underlying causes of species' geographic distribution. Indeed, biogeographers strive to find the set of variables that best explains past and present distribution in order to accurately forecast tomorrow's species occurrences. This understanding is crucial to foresee and control impacts of anthropogenic forcing on biodiversity loss.
@@ -41,10 +45,12 @@ Behind the aesthetic value of Earth's biodiversity, there is one exciting challe
 Beyond classical variables such as temperature, precipitations and edaphic factors, Biogeographers must take evolutionary processes and ecological interactions into account to better estimate future biodiversity at global scale. Working in this context, my Phd thesis project focuses on one particular theoretical issue: the relationship between ecological interactions and species co-occurrence. As theory predicts that species's range limits are affected by many factors including ecological interactions, there must be a link between co-occurrence of species and their biological association. Therefore I search for elegant methods to address questions pertaining to this link in order to sustain the development of emerging joint species distribution models, which I think could improve our predictions of future changes in biodiversity.
 </p>
 
-<br>
+<br/><br/>
 
 
 ## With whom am I collaborating?
+<hr>
+<br/>
 
 *   [Bernard Cazelles](http://www.biologie.ens.fr/~cazelles/bernard/Welcome.html), Ecole Normale Supérieure (Paris),
 *   [Camille Albouy](http://albouycamille.free.fr/),  ETH of Zurich,
