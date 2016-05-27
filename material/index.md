@@ -5,18 +5,37 @@ order: 3
 ---
 
 ## R packages
+<hr/>
 
-- Some R functions to ease the edition of graphics using the base package *graphics*: [graphicsutils](https://github.com/KevCaz/graphicsutils) [![Travis](https://travis-ci.org/KevCaz/graphicsutils.svg?branch=master)](https://travis-ci.org/KevCaz/graphicsutils)
+<br/>
+<br/>
 
-       devtools::install_github("KevCaz/graphicsutils")
+### [graphicsutils](https://github.com/KevCaz/graphicsutils)
 
-- A small package to convert numbers from one base to another [decomposenumber](https://github.com/KevCaz/decomposenumbers):
+ some R functions to ease the edition of graphics using the base package *graphics*:
 
-      devtools::install_github("KevCaz/decomposenumbers"))
+ [![Travis](https://travis-ci.org/KevCaz/graphicsutils.svg?branch=master)](https://travis-ci.org/KevCaz/graphicsutils)
+
+
+<br/>
+
+### [letiRmisc](https://github.com/letiR/letiRmisc)
+
+Some miscellaneous R functions :
+
+ [![Travis](https://travis-ci.org/letiR/letiRmisc.svg?branch=master)](https://travis-ci.org/letiR/letiRmisc)
+
+<br/>
+
+### [decomposenumber](https://github.com/KevCaz/decomposenumbers):
+
+ A small package to convert numbers from one base to another
+
 
 <br/>
 
 ## Manuals
+<hr/>
 
 <ul>
 {% for member in site.data.manual %}
@@ -35,7 +54,9 @@ order: 3
 
 <br/>
 
+
 ## Presentation (teaching)
+<hr/>
 
 <ul>
 {% for member in site.data.teachpres %}

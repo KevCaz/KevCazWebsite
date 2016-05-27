@@ -1,0 +1,13 @@
+################################################
+################################################
+## Main packages
+
+- namepkg: graphicsutils
+  text: ""
+  github: KevCaz/graphicsutils
+  travis:
+
+- namepkg: letiRmisc
+  text: ""
+  github: letiR/letiRmisc
+  travis:
