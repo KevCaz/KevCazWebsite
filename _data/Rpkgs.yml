@@ -57,6 +57,10 @@
   website: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
   category: 2. Colors
 
+- namepkg: viridisLite
+  text: "viridis Lite version"
+  github: sjmgarnier/viridisLite
+  category: 2. Colors
 
 - namepkg: wesanderson
   text: "palettes generated mostly from Wes Anderson movies."
@@ -415,6 +419,12 @@
   website: http://ggplot2.org
   category: C. ggplot2 and extensions
 
+- namepkg: cowplot
+  text: "provide a publication-ready theme for ggplot2"
+  github: wilkelab/cowplot
+  website: https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
+  category: C. ggplot2 and extensions
+
 - namepkg: ggthemes
   text: "some extra themes, geoms, and scales for 'ggplot2'"
   github: /jrnold/ggthemes
@@ -618,6 +628,17 @@
   github: rstudio/dygraphs
   website: https://rstudio.github.io/dygraphs/
   category: D. Web-based interactive charts
+
+- namepkg: heatmaply
+  text: "Interactive Heat Maps Using 'plotly'"
+  github: talgalili/heatmaply
+  category: D. Web-based interactive charts
+
+- namepkg: manhattanly
+  text: "create interactive manhattan and Q-Q plots"
+  github: sahirbhatnagar/manhattanly
+  category: D. Web-based interactive charts
+
 
 - namepkg: metricsgraphics
   text: "Creates interactive charts with the JavaScript 'MetricsGraphics' library."
