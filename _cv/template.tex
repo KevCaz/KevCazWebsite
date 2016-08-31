@@ -219,7 +219,10 @@ $endif$
 
 %------------------
 $if(grants)$
-\section*{Grants}
+\ifthenelse{\equal{$lang$}{fr}}{
+  \section*{\textbf{Bourse}}}{
+  \section*{\textbf{Grants}}}
+
 % \section*{Bourses}
 \noindent
 $for(grants)$
