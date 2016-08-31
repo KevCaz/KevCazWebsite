@@ -30,7 +30,7 @@ layout: default
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <i class="fa fa-phone fa-2x" aria-hidden="true"></i> : +1 418 723-1986 1569
 
-    - Curriculum Vitae &nbsp;[<i class="fa fa-file-pdf-o  fa-2x"></i>]({{site.baseurl}}/assets/CVKC.pdf) &nbsp;[<i class="fa  fa-download  fa-2x"></i>]({{site.baseurl}}/assets/CVKC.zip)
+    - Curriculum Vitae &nbsp;[<i class="fa fa-file-pdf-o  fa-2x"></i>]({{site.baseurl}}/assets/CV_KevCaz/CV_KevCaz.pdf) &nbsp;[<i class="fa  fa-download  fa-2x"></i>]({{site.baseurl}}/assets/CV_KevCaz.zip)
 
 <br/><br/>
 

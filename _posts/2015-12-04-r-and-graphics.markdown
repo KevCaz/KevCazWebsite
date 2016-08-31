@@ -78,7 +78,7 @@ Many packages for graphics are indexed in a dedicated [task view maintained by N
 
 when available, we also provide :
 
-  - <a href=""><i class="fa fa-github"></i></a> : a link that goes to the[Github](https://github.com) repository,
+  - <a href=""><i class="fa fa-github"></i></a> : a link that goes to the [Github](https://github.com) repository,
   - <a href=""><i class="fa fa-bitbucket"></i></a> : a link that goes to the associated [Bitbucket](https://bitbucket.org) repository,
   - <a href=""><i class="fa fa-globe"></i></a> : a link that goes to a dedicated website or a html vignette that describes well the package,
   - <a href=""><i class="fa fa-link"></i></a> : a link that goes to a relevant publication,
