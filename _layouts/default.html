@@ -4,28 +4,25 @@
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
-    <!-- Table of content -->
-    <div id="toc">
-      <script type="text/javascript">
-      $(document).ready(function() {
-        $('#toc').toc({listType: 'ul'}) ;
-      });
-      </script>
-    </div>
+  <article class="page-content">
 
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class = "row">
+      <div id="nav" class="small-0 large-3 column">
+        <h4> Contents </h4>
+        <hr>
+        <ul class="vertical menu docs-nav" id="docs-menu">
+          <!-- here the magick of the js script -->
+        </ul>
       </div>
+
+      <div class="small-12 large-9 columns"> {{ content }} </div>
     </div>
 
+  </article>
 
     {% include footer.html %}
-
   </body>
 
 </html>

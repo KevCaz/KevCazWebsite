@@ -17,7 +17,7 @@ description: "Kevin Cazelles is a phD student working in theoretical ecology."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kevincazelles.fr" # the base hostname & protocol for your site
 
-github_username:  KevCaz
+github_username: KevCaz
 
 
 # Build settings
